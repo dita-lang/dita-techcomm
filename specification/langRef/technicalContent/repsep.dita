@@ -27,6 +27,7 @@
         <xmlelement>ph</xmlelement>. It is defined in the syntax-diagram domain module, which is a
         specialization of the programming domain module.</p>
     </section>
+    <section conkeyref="content-models-repsep/repsep.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/syntaxelement-optreq"/></section>

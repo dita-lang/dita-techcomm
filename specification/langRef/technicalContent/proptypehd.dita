@@ -18,6 +18,7 @@
                               <xmlelement>stentry</xmlelement>. It is defined in the reference
                         module.</p>
             </section>
+    <section conkeyref="content-models-proptypehd/proptypehd.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/stentry-no-spans"/>

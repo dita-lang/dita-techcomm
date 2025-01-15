@@ -39,6 +39,7 @@
           <xmlelement>markupname</xmlelement> element is defined in the
         markup-name domain module.</p>
     </section>
+    <section conkeyref="content-models-parameterentity/parameterentity.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>

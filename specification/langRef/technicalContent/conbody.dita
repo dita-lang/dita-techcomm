@@ -28,6 +28,7 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>conbody</xmlelement> element is specialized from
           <xmlelement>body</xmlelement>. It is defined in the concept module.</p></section>
+    <section conkeyref="content-models-conbody/conbody.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

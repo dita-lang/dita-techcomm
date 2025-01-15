@@ -19,6 +19,7 @@
             <p>The <xmlelement>partno</xmlelement> element is specialized from
                     <xmlelement>ph</xmlelement>. It is defined in the hardware domain module.</p>
         </section>
+        <section conkeyref="content-models-partno/partno.element" id="content-model"/>
         <section id="attributes">
             <title>Attributes</title>
             <p conkeyref="reuse-attributes/universal-keyref"/>

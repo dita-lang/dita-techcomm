@@ -18,6 +18,7 @@
       <p>The <xmlelement>glossSymbol</xmlelement> element is specialized from
           <xmlelement>image</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
+    <section conkeyref="content-models-glossSymbol/glossSymbol.element" id="content-model"/>
     <section conkeyref="reuse-image/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>

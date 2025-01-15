@@ -29,6 +29,7 @@
       <p>The <xmlelement>uicontrol</xmlelement> element is specialized from
           <xmlelement>ph</xmlelement>. It is defined in the user-interface domain module.</p>
     </section>
+    <section conkeyref="content-models-uicontrol/uicontrol.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>

@@ -36,4 +36,5 @@
    <mapref href="xml-mention-domain-elements.ditamap" format="ditamap"/>
   </topicref>
  </topicref>
+  <mapref href='content-models/bookmap.ditamap'/>
 </map>

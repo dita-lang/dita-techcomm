@@ -21,6 +21,7 @@
           <xmlelement>metadata</xmlelement>. It is defined in the release-management domain
         module.</p>
     </section>
+    <section conkeyref="content-models-change-request-reference/change-request-reference.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>

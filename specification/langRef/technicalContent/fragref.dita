@@ -27,6 +27,7 @@
         It is defined in the syntax-diagram domain module, which is a specialization of the
         programming domain module.</p>
 </section>
+    <section conkeyref="content-models-fragref/fragref.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph

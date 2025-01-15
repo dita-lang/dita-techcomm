@@ -25,6 +25,7 @@
 <p>The <xmlelement>step</xmlelement> element is specialized from <xmlelement>li</xmlelement>. It is
         defined in the task module.</p>
 </section>
+<section conkeyref="content-models-step/step.element" id="content-model"/>
 <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph

@@ -13,6 +13,7 @@
 <p>The <xmlelement>cmd</xmlelement> element is specialized from <xmlelement>ph</xmlelement>. It is
             defined in the task module.</p>
 </section>
+<section conkeyref="content-models-cmd/cmd.element" id="content-model"/>
 <section id="attributes"><title>Attributes</title>
    <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"/> and <xref keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>.</p>
    </section>

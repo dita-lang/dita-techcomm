@@ -26,6 +26,7 @@
       <p>The <xmlelement>glossarylist</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
+    <section conkeyref="content-models-glossarylist/glossarylist.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/>

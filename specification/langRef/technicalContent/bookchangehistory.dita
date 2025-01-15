@@ -18,6 +18,7 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>bookchangehistory</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p></section>
+    <section conkeyref="content-models-bookchangehistory/bookchangehistory.element" id="content-model"/>
     <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>

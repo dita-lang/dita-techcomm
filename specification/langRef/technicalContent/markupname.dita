@@ -29,6 +29,7 @@
       <p>The <xmlelement>markupname</xmlelement> element is specialized from
           <xmlelement>keyword</xmlelement>. It is defined in the markup domain module.</p>
     </section>
+    <section conkeyref="content-models-markupname/markupname.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>

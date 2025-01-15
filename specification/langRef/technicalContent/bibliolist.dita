@@ -24,6 +24,7 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>bibliolist</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
+    <section conkeyref="content-models-bibliolist/bibliolist.element" id="content-model"/>
     <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title>

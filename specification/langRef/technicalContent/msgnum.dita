@@ -19,6 +19,7 @@
       <p>The <xmlelement>msgnum</xmlelement> element is specialized from
           <xmlelement>keyword</xmlelement>. It is defined in the software domain module.</p>
     </section>
+    <section conkeyref="content-models-msgnum/msgnum.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>

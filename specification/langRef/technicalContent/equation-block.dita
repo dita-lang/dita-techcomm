@@ -32,6 +32,7 @@
       <p>The <xmlelement>equation-block</xmlelement> element is specialized from
           <xmlelement>div</xmlelement>. It is defined in the equation domain module.</p>
     </section>
+    <section conkeyref="content-models-equation-block/equation-block.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph conkeyref="reuse-attributes/ref-universalatts"
