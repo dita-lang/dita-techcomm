@@ -20,6 +20,7 @@
       <p>The <xmlelement>systemoutput</xmlelement> element is specialized from
           <xmlelement>ph</xmlelement>. It is defined in the software domain module.</p>
     </section>
+    <section conkeyref="content-models-systemoutput/systemoutput.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>

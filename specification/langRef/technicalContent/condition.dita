@@ -32,6 +32,7 @@
       <p>The <xmlelement>condition</xmlelement> element is specialized from
           <xmlelement>section</xmlelement>. It is defined in the troubleshooting module.</p>
     </section>
+    <section conkeyref="content-models-condition/condition.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

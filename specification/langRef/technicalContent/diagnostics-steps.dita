@@ -29,6 +29,7 @@
         specialized from <xmlelement>section</xmlelement>. It is defined in
         the troubleshooting module.</p>
     </section>
+    <section conkeyref="content-models-diagnostics-steps/diagnostics-steps.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

@@ -25,6 +25,7 @@
     hierarchy</title>
       <p>The <xmlelement>amendments</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
+  <section conkeyref="content-models-amendments/amendments.element" id="content-model"/>
   <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
   <example id="example" otherprops="examples"><title>Example</title>
       <p>The following code sample specifies that a change history list is generated in the

@@ -18,6 +18,7 @@
                <xmlelement>conbody</xmlelement> element is specialized from
                <xmlelement>body</xmlelement>; it is defined in the concept module.</p>
       </section>
+      <section conkeyref="content-models-glossBody/glossBody.element" id="content-model"/>
       <section id="attributes">
          <title>Attributes</title>
          <p conkeyref="reuse-attributes/only-universal"/>

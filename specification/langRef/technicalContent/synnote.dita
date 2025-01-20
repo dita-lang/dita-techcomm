@@ -32,6 +32,7 @@ itself.</p>
         is defined in the syntax-diagram domain module, which is a specialization of the programming
         domain module.</p>
 </section>
+    <section conkeyref="content-models-synnote/synnote.element" id="content-model"/>
     <section conkeyref="reuse-fn/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>

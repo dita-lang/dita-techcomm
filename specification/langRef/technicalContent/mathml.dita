@@ -32,6 +32,7 @@
       <p>The <xmlelement>mathml</xmlelement> element is specialized from
           <xmlelement>foreign</xmlelement>. It is defined in the MathML domain module.</p>
     </section>
+    <section conkeyref="content-models-mathml/mathml.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

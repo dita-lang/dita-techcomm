@@ -20,6 +20,7 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>appendices</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
+    <section conkeyref="content-models-appendices/appendices.element" id="content-model"/>
     <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
     <example id="example" otherprops="examples"
       ><title>Example</title>

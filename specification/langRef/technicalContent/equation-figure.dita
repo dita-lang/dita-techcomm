@@ -51,6 +51,7 @@
       <p>The <xmlelement>equation-figure</xmlelement> element is specialized from
           <xmlelement>fig</xmlelement>. It is defined in the equation domain module.</p>
     </section>
+    <section conkeyref="content-models-equation-figure/equation-figure.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph

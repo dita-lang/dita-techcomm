@@ -19,6 +19,7 @@
 <p>The <xmlelement>choption</xmlelement> element is specialized from
           <xmlelement>stentry</xmlelement>. It is defined in the task module.</p>
 </section>
+    <section conkeyref="content-models-choption/choption.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/stentry-no-spans"/>

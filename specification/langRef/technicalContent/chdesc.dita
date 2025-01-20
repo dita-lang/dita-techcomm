@@ -20,6 +20,7 @@
       <p>The <xmlelement>chdesc</xmlelement> element is specialized from
           <xmlelement>stentry</xmlelement>. It is defined in the task module.</p>
     </section>
+    <section conkeyref="content-models-chdesc/chdesc.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/stentry-no-spans"/>

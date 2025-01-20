@@ -22,6 +22,7 @@
           <xmlelement>metadata</xmlelement>. It is defined in the release-management domain
         module.</p>
     </section>
+    <section conkeyref="content-models-change-historylist/change-historylist.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

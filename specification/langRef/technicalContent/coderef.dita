@@ -30,6 +30,7 @@
         <ph rev="review-c">element</ph> is specialized from <xmlelement>include</xmlelement>. It is
         defined in the programming domain module.</p>
     </section>
+    <section conkeyref="content-models-coderef/coderef.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p id="xref-attributes">The following attributes are available on this element: <ph

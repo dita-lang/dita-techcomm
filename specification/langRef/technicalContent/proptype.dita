@@ -17,6 +17,7 @@
          <p>The <xmlelement>proptype</xmlelement> element is specialized from
                <xmlelement>stentry</xmlelement>. It is defined in the reference module.</p>
       </section>
+    <section conkeyref="content-models-proptype/proptype.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/stentry-with-rowspan"/>

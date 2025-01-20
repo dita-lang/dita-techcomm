@@ -22,6 +22,7 @@
             <p>The <xmlelement>hwcontrol</xmlelement> element is specialized from
                     <xmlelement>ph</xmlelement>. It is defined in the hardware domain module.</p>
         </section>
+        <section conkeyref="content-models-hwcontrol/hwcontrol.element" id="content-model"/>
         <section id="attributes">
             <title>Attributes</title>
             <p conkeyref="reuse-attributes/universal-keyref"/>

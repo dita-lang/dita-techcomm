@@ -21,6 +21,7 @@
       <p>The <xmlelement>frontmatter</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
+    <section conkeyref="content-models-frontmatter/frontmatter.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/bookmap-frontbackmatter"/></section>

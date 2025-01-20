@@ -30,6 +30,7 @@
       <p>The <xmlelement>troubleshooting</xmlelement> element is specialized from
           <xmlelement>topic</xmlelement>. It is defined in the troubleshooting module.</p>
     </section>
+    <section conkeyref="content-models-troubleshooting/troubleshooting.element" id="content-model"/>
     <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>

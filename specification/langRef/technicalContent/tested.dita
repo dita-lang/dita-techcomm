@@ -20,6 +20,7 @@
       <p>The <xmlelement>tested</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
+    <section conkeyref="content-models-tested/tested.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>

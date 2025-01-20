@@ -28,6 +28,7 @@
       <p>The <xmlelement>remedy</xmlelement> element is specialized from
           <xmlelement>section</xmlelement>.  It is defined in the troubleshooting module.</p>
     </section>
+    <section conkeyref="content-models-remedy/remedy.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

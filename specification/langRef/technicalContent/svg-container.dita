@@ -26,6 +26,7 @@
       <p>The <xmlelement>svg-container</xmlelement> is specialized from
           <xmlelement>foreign</xmlelement>. It is defined in the SVG domain module.</p>
     </section>
+    <section conkeyref="content-models-svg-container/svg-container.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

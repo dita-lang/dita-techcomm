@@ -35,6 +35,7 @@
       <p>The <xmlelement>tasktroubleshooting</xmlelement> element is specialized from
           <xmlelement>section</xmlelement>. It is defined in the task module.</p>
     </section>
+    <section conkeyref="content-models-tasktroubleshooting/tasktroubleshooting.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>

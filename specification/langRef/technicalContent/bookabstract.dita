@@ -18,6 +18,7 @@
     hierarchy</title>
       <p>The <xmlelement>bookabstract</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p></section>
+  <section conkeyref="content-models-bookabstract/bookabstract.element" id="content-model"/>
   <section id="attributes"><title>Attributes</title><div conkeyref="reuse-tc-attributes/bookmap-topicrefs"/></section>
   <example id="example" otherprops="examples"><title>Example</title>
    <p rev="review-k">The following code sample shows how a <xmlelement>bookabstract</xmlelement>

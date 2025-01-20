@@ -41,6 +41,7 @@
       <p>The <xmlelement>choicetable</xmlelement> element is specialized from
           <xmlelement>simpletable</xmlelement>. It is defined in the task module.</p>
     </section>
+    <section conkeyref="content-models-choicetable/choicetable.element" id="content-model"/>
     <section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/simpletable-attributes"/>
