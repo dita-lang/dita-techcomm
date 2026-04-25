@@ -107,23 +107,30 @@
     </xsl:result-document>
   </xsl:template>
 
-  <xsl:template match="fragment[concept]" mode="serialize">
+  <xsl:template match="fragment[concept | conbody]" mode="serialize">
     <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Concept//EN"
       doctype-system="concept.dtd">
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
   </xsl:template>
 
-  <xsl:template match="fragment[task | steps | step]" mode="serialize">
+  <xsl:template match="fragment[task | steps | step | taskbody]" mode="serialize">
     <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Task//EN"
       doctype-system="task.dtd">
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
   </xsl:template>
 
-  <xsl:template match="fragment[reference]" mode="serialize">
+  <xsl:template match="fragment[reference | refsyn | refbody | properties]" mode="serialize">
     <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Reference//EN"
       doctype-system="reference.dtd">
+      <xsl:apply-templates select="." mode="copy"/>
+    </xsl:result-document>
+  </xsl:template>
+  
+  <xsl:template match="fragment[troubleshooting]" mode="serialize">
+    <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Troubleshooting//EN"
+      doctype-system="troubleshooting.dtd">
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
   </xsl:template>
@@ -162,10 +169,24 @@
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
   </xsl:template>
+  
+  <xsl:template match="fragment[glossgroup]" mode="serialize">
+    <xsl:result-document href="{x:createFileName(., '.dita')}"
+      doctype-public="-//OASIS//DTD DITA 2.0 Glossary Group//EN" doctype-system="glossgroup.dtd">
+      <xsl:apply-templates select="." mode="copy"/>
+    </xsl:result-document>
+  </xsl:template>
 
   <xsl:template match="fragment" mode="serialize" priority="0">
     <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Topic//EN"
       doctype-system="topic.dtd">
+      <xsl:apply-templates select="." mode="copy"/>
+    </xsl:result-document>
+  </xsl:template>
+  
+  <xsl:template match="fragment[bookmap | booklists | frontmatter | bookmeta | backmatter | bookrights]" mode="serialize">
+    <xsl:result-document href="{x:createFileName(., '.dita')}"
+      doctype-public="-//OASIS//DTD DITA 2.0 BookMap//EN" doctype-system="bookmap.dtd">
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
   </xsl:template>
