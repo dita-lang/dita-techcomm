@@ -56,6 +56,7 @@
       &lt;copyrfirst>
         &lt;year>2020&lt;/year>
       &lt;/copyrfirst>
+      &lt;bookowner>&lt;person>Famous T. Author&lt;/person>&lt;/bookowner>
     &lt;/bookrights>
   &lt;/bookmeta>
   <ph rev="review-k">&lt;mapresources>

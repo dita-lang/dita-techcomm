@@ -33,14 +33,14 @@
       &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
     &lt;/reviewed>
     &lt;edited>
-      &lt;revisionid>1&lt;/revisionid>
       &lt;person>Joe T. Editor&lt;/person>
+      &lt;revisionid>1&lt;/revisionid>
       &lt;completed>&lt;year>2019&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
       &lt;summary>Corrected grammatical errors.&lt;/summary>
     &lt;/edited>
     &lt;edited>
-      &lt;revisionid>3&lt;/revisionid>
       &lt;person>Joe T. Editor&lt;/person>
+      &lt;revisionid>3&lt;/revisionid>
       &lt;completed>&lt;year>2022&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
     &lt;/edited>
     &lt;tested>

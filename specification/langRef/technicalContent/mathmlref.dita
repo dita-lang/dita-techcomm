@@ -42,7 +42,7 @@
           way:</p>
         <codeblock>&lt;keydef keys="math-fragment-0002" href="mathml/mathml-library.xml#math-fragment-02"/></codeblock>
         <p>You reference this key by using just the key name:</p>
-        <codeblock>&lt;mathref <b>keyref="math-fragment-0002"</b>/></codeblock>
+        <codeblock>&lt;mathmlref <b>keyref="math-fragment-0002"</b>/></codeblock>
       </div>
     </section>
     <section id="processing-expectations">
@@ -132,7 +132,7 @@
 &lt;/equation-block></codeblock>
         <p>The <filepath>mathml-equation-library.xml</filepath> file
           contains the following content:</p>
-        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+        <codeblock base="ci-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;root>
   &lt;part>
     &lt;math id="timeinday" xmlns="http://www.w3.org/1998/Math/MathML">

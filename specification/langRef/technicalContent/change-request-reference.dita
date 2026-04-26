@@ -36,6 +36,7 @@
         &lt;change-request-system>example.com/my/queue/&lt;/change-request-system>
         &lt;change-request-id>TCKT-1313&lt;/change-request-id>
       <b>&lt;/change-request-reference></b>
+      &lt;change-completed>2025-10-31&lt;/change-completed>
     &lt;/change-item>
   &lt;/change-historylist></codeblock>
     </example>

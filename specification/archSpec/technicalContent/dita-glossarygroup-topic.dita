@@ -33,7 +33,7 @@
       &lt;glossdef>An American multinational technology company headquartered in Cupertino, California.&lt;/glossdef>
     &lt;/glossentry>
   <b>&lt;/glossgroup></b>
-  ... (groups B to Y here ) ...
+  &lt;!-- ... (groups B to Y here ) ... -->
   <b>&lt;glossgroup id="glossgroup-z"></b>
     &lt;title>Z&lt;/title>
     &lt;glossentry id="ziziphus-fruit">

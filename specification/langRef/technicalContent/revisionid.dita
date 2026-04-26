@@ -45,13 +45,13 @@
   &lt;/publisherinformation>
   &lt;bookchangehistory>
     &lt;edited>
-      <b>&lt;revisionid>1&lt;/revisionid></b>
       &lt;person>Joe T. Editor&lt;/person>
+      <b>&lt;revisionid>1&lt;/revisionid></b>
       &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
     &lt;/edited>
     &lt;edited>
-      <b>&lt;revisionid>2&lt;/revisionid></b>
       &lt;person>Joe T. Editor&lt;/person>
+      <b>&lt;revisionid>2&lt;/revisionid></b>
       &lt;completed>&lt;year>2023&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
     &lt;/edited>
   &lt;/bookchangehistory>

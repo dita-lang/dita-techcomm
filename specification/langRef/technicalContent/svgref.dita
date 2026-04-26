@@ -93,11 +93,10 @@
     <b>&lt;svgref href="media/svg/svg-graphic-01.xml"/></b>
   &lt;/svg-container>
 &lt;/fig></codeblock>
-        <p>The <filepath>svg-graphic-01.xml</filepath> file contains the
-          following content. Note that the <xmlelement>svg</xmlelement>
-          element sets the SVG namespace as the default namespace, so there
-          are no namespace prefixes on the SVG
-          markup.<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+        <p>The <filepath>svg-graphic-01.xml</filepath> file contains the following content. Note
+          that the <xmlelement>svg</xmlelement> element sets the SVG namespace as the default
+          namespace, so there are no namespace prefixes on the SVG
+          markup.<codeblock base="ci-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;svg <b>xmlns="http://www.w3.org/2000/svg"</b> width="100" height="100">
   &lt;defs>
     &lt;filter id="f1" x="0" y="0">
@@ -120,9 +119,8 @@
     <b>&lt;svgref href="media/svg/svg-library.xml#frag-0001" /></b>
   &lt;/svg-container>
 &lt;/fig></codeblock>
-        <p>The <filepath>svg-library.xml</filepath> file contains the
-          following
-          content:<codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+        <p>The <filepath>svg-library.xml</filepath> file contains the following
+          content:<codeblock base="ci-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;root>
   &lt;part>
     &lt;svg <b>id="frag-0001"</b> xmlns="http://www.w3.org/2000/svg" width="100" height="100">

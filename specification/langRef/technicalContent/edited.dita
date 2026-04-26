@@ -37,13 +37,13 @@
       &lt;completed>&lt;year>2020&lt;/year>&lt;month>01&lt;/month>&lt;/completed>
     &lt;/reviewed>
    <b>&lt;edited></b>
-      &lt;revisionid>1&lt;/revisionid>
       &lt;person>Joe T. Editor&lt;/person>
+      &lt;revisionid>1&lt;/revisionid>
       &lt;completed>&lt;year>2020&lt;/year>&lt;month>03&lt;/month>&lt;day>15&lt;/day>&lt;/completed>
     <b>&lt;/edited></b>
     <b>&lt;edited></b>
-      &lt;revisionid>2&lt;/revisionid>
       &lt;person>Joe T. Editor&lt;/person>
+      &lt;revisionid>2&lt;/revisionid>
       &lt;completed>&lt;year>2023&lt;/year>&lt;month>06&lt;/month>&lt;day>30&lt;/day>&lt;/completed>
     <b>&lt;/edited></b>
   &lt;/bookchangehistory>

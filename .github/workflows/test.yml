@@ -58,8 +58,8 @@ jobs:
       - name: Extract codeblock content
         run: |
           $DITA_HOME/bin/dita \
-            -i $PWD/specification/dita-2.0-specification.ditamap \
-            --filter $PWD/specification/resources/DITA2.0-spec.ditaval \
+            -i $PWD/specification/dita-2.0-technical-content-specification.ditamap \
+            --filter $PWD/specification/baseSpec/resources/DITA2.0-spec.ditaval \
             -f extract-codeblock
       - name: Validate codeblock content
         working-directory: .github

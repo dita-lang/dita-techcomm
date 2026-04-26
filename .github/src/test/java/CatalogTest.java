@@ -17,7 +17,7 @@ public class CatalogTest {
         final XMLResolverConfiguration config = new XMLResolverConfiguration(catalog);
 
         final Resolver resolver = new Resolver(config);
-        final InputSource act = resolver.resolveEntity("-//OASIS//DTD DITA 2.0 Base Topic//EN", "foo");
+        final InputSource act = resolver.resolveEntity("-//OASIS//DTD DITA 2.x Task//EN", "foo");
 
         assertNotNull(act.getSystemId());
         assertTrue(act.getByteStream() != null || act.getCharacterStream() != null);
