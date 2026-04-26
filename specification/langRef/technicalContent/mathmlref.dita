@@ -132,7 +132,7 @@
 &lt;/equation-block></codeblock>
         <p>The <filepath>mathml-equation-library.xml</filepath> file
           contains the following content:</p>
-        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+        <codeblock base="ci-xml">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;root>
   &lt;part>
     &lt;math id="timeinday" xmlns="http://www.w3.org/1998/Math/MathML">

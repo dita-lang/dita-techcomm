@@ -43,9 +43,9 @@
   &lt;title>Request file listing&lt;/title>
   &lt;groupseq>
     &lt;kwd>clicmd&lt;/kwd>
-    <b>&lt;synblk conkeyref="syntax-library/profileopts"/></b>
-    &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>filelist&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>volumeid&lt;/var>&lt;/groupcomp>
   &lt;/groupseq>
+  <b>&lt;synblk conkeyref="syntax-library/profileopts"/></b>
+  &lt;groupcomp>&lt;oper>--&lt;/oper>&lt;kwd>filelist&lt;/kwd>&lt;sep>=&lt;/sep>&lt;var>volumeid&lt;/var>&lt;/groupcomp>
 &lt;/syntaxdiagram></codeblock></p></example>
   </refbody>
 </reference>
