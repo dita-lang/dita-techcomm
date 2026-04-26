@@ -66,7 +66,7 @@
         stylesheets used to generate output produce different labels for
         each of the <xmlelement>prereq</xmlelement> sections, triggered by
         the value of the <xmlatt>outputclass</xmlatt> attribute.</p>
-      <codeblock>&lt;task id="changing_a_tire">
+      <codeblock base="ci-generaltask">&lt;task id="changing_a_tire">
   &lt;title>Changing a tire&lt;/title>
   &lt;taskbody>
     &lt;context>&lt;p>A flat tire typically shows up unexpectedly and catapults itself onto the 

@@ -80,6 +80,7 @@
       &lt;/ul>
     &lt;/section>
     &lt;steps>
+      &lt;step>&lt;cmd>Read all instructions before you begin.&lt;/cmd>&lt;/step>
       &lt;!-- ... -->
     &lt;/steps>
   <b>&lt;/taskbody></b>
