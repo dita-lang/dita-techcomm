@@ -135,15 +135,8 @@
     </xsl:result-document>
   </xsl:template>
 
-  <xsl:template match="fragment[descendant::topicsubject]" mode="serialize" priority="10">
-    <xsl:result-document href="{x:createFileName(., '.dita')}"
-      doctype-public="-//OASIS//DTD DITA 2.0 Classification Map//EN" doctype-system="classifyMap.dtd">
-      <xsl:apply-templates select="." mode="copy"/>
-    </xsl:result-document>
-  </xsl:template>
-
   <xsl:template match="fragment[map | topicmeta | topicref | keydef | topicsubject | topicgroup | mapref]" mode="serialize">
-    <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Base Map//EN"
+    <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Map//EN"
       doctype-system="map.dtd">
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
