@@ -27,6 +27,9 @@
               <xsl:variable name="parsed" select="parse-xml($text)/*[namespace-uri() = '']" as="element()"/>
               <xsl:if test="$parsed">
                 <fragment validate="{not($base = 'ci-xml')}">
+                  <xsl:if test="$base = 'ci-generaltask'">
+                    <xsl:attribute name="task">general</xsl:attribute>
+                  </xsl:if>
                   <xsl:copy-of select="@xtrf | @xtrc"/>
                   <xsl:copy-of select="$parsed"/>
                 </fragment>
@@ -110,6 +113,13 @@
   <xsl:template match="fragment[concept | conbody]" mode="serialize">
     <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Concept//EN"
       doctype-system="concept.dtd">
+      <xsl:apply-templates select="." mode="copy"/>
+    </xsl:result-document>
+  </xsl:template>
+
+  <xsl:template match="fragment[@task = 'general']" priority="10" mode="serialize">
+    <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 General Task//EN"
+      doctype-system="generalTask.dtd">
       <xsl:apply-templates select="." mode="copy"/>
     </xsl:result-document>
   </xsl:template>

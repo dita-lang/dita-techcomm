@@ -44,7 +44,7 @@
     &lt;context>As you perform this procedure, you can select the conventions that you want to 
              use for file names.&lt;/context>
     &lt;steps>
-      &lt;!-- ... -->
+      &lt;step>&lt;cmd>&lt;!-- ... -->&lt;/cmd>&lt;/step>
     &lt;/steps>
     &lt;result>In the File Manager view, you can see the file names and paths of the DITA
             topics.&lt;/result>
@@ -64,7 +64,7 @@
         <p>The following code sample shows how the
             <xmlelement>taskbody</xmlelement>element contains building
           blocks of a general task topic:</p>
-        <codeblock>&lt;task id="completing-group-project">
+        <codeblock base="ci-generaltask">&lt;task id="completing-group-project">
   &lt;title>Completing the final project&lt;/title>
   &lt;shortdesc>This handout contains information about completing the final project 
       for History 275, "Exploring your community history."&lt;/shortdesc>
@@ -101,7 +101,7 @@
           general task topic for a reuse topic enables them to have
           multiple <xmlelement>prereq</xmlelement> elements in a single
           topic.</p>
-        <codeblock>&lt;task id="reuse-prereq">
+        <codeblock base="ci-generaltask">&lt;task id="reuse-prereq">
   &lt;title>Reuse topic: &lt;xmlelement>prereq&lt;/xmlelement>&lt;/title>
   &lt;shortdesc>This topic stores &lt;xmlelement>prereq&lt;/xmlelement> elements
              that are reused in the product documentation.&lt;/shortdesc>
