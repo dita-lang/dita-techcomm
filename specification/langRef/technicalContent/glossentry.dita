@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossentry" xml:lang="en-us">
   <title><xmlelement>glossentry</xmlelement></title>
-  <shortdesc>The <xmlelement>glossentry</xmlelement> element defines a single sense of a glossary
-    term. Glossary entries for different term senses can be reused independently of one
-    another.</shortdesc>
+  <shortdesc>The <xmlelement>glossentry</xmlelement> element is the top-level element for a topic
+    that defines a glossary term.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -17,16 +15,27 @@
     </metadata>
   </prolog>
   <refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Because the glossary entry specialization is designed for <ph rev="review-a-2024">multiple
+          purposes</ph>, it contains elements that <ph rev="review-a-2024">typically</ph> are not
+        intended to be rendered when a glossary is generated. In addition, when a collection of
+        glossary entry topics <ph rev="review-a-2024">is</ph> rendered as <ph rev="review-a-2024"
+          >authoring guidance</ph>, generated text might be required for ease of reading.
+        Specialized style sheets and processing are needed to ensure useful output.</p>
+    </section>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>The recommended (but not required) book processing is to sort and group glossary entries
-        based on the localized term so a back-of-the-book glossary can contain a collated list of
-        terms with the definitions of the individual senses of each term indented under the term.
-        The glossary can have a different organization in different languages depending on the
-        translation of the terms.</p>
-      <p>One possible implementation of a glossary in online processing is to associate a hotspot
-        for mentions of terms in <xmlelement>term</xmlelement> elements and display the definition
-        on hover or click.</p>
+      <p>Processing expectations for glossary entry topics are highly implementation-specific and
+        will depend on the output format.</p>
+      <p rev="review-a-2024">For HTML-based output formats, one possible implementation of glossary
+        entry topics is to generate hyperlinks for <xmlelement>term</xmlelement> elements that are
+        associated by key reference with the glossary entry topic. The term definition might be
+        displayed when someone hovers over or clicks on the hyperlink.</p>
+      <p rev="review-a-2024">For PDF output, one possible implementation of glossary entry topics is
+        to render acronyms or expanded acronyms for <xmlelement>abbreviated-form</xmlelement>
+        elements that are associated by key reference with the glossary entry topics. The surface
+        form is rendered on first usage, and the acronym is rendered on second or later usage.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -38,37 +47,25 @@
     <section conkeyref="reuse-topic/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <fig id="fig_f3y_ldk_wbb">
-        <title>The glossary term "USB flash drive" with additional information</title>
-        <codeblock>&lt;glossentry id="usbfd">
-          &lt;glossterm>USB flash drive&lt;/glossterm>
-          &lt;glossdef>A small portable drive.&lt;/glossdef>
-          &lt;glossBody>
-          &lt;glossPartOfSpeech value="noun"/>
-          &lt;glossUsage>Do not provide in upper case (as in "USB Flash
-          Drive") because that suggests a trademark.&lt;/glossUsage>
-          &lt;glossAlt>
-          &lt;glossAcronym>UFD&lt;/glossAcronym>
-          &lt;glossUsage>Explain the acronym on first occurrence.&lt;/glossUsage>
-          &lt;/glossAlt>
-          &lt;glossAlt id="memoryStick">
-          &lt;glossSynonym>memory stick&lt;/glossSynonym>
-          &lt;glossUsage>This is a colloquial term.&lt;/glossUsage>
-          &lt;/glossAlt>
-          &lt;glossAlt>
-          &lt;glossAbbreviation>stick&lt;/glossAbbreviation>
-          &lt;glossStatus value="prohibited"/>
-          &lt;glossUsage>This is too colloquial.&lt;/glossUsage>
-          &lt;glossAlternateFor href="#usbfd/memoryStick"/>
-          &lt;/glossAlt>
-          &lt;glossAlt>
-          &lt;glossAbbreviation>flash&lt;/glossAbbreviation>
-          &lt;glossStatus value="prohibited"/>
-          &lt;glossUsage>This short form is ambiguous.&lt;/glossUsage>
-          &lt;/glossAlt>
-          &lt;/glossBody>
-          &lt;/glossentry></codeblock>
-      </fig>
+      <p>The following code samples shows how a glossary entry topic
+        provides information about a term that aids in terminology
+        management:</p>
+      <codeblock><b>&lt;glossentry id="usbfd"></b>
+  &lt;glossterm>USB flash drive&lt;/glossterm>
+  &lt;glossdef>A small portable drive.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossUsage>Do not use this term in upper case (for example,  in "USB Flash Drive")
+      because that suggests a trademark.&lt;/glossUsage>
+    &lt;glossAlt>
+      &lt;glossAcronym>UFD&lt;/glossAcronym>
+    &lt;/glossAlt>
+    &lt;glossAlt id="memoryStick">
+      &lt;glossSynonym>memory stick&lt;/glossSynonym>
+      &lt;glossUsage>This is a colloquial term.&lt;/glossUsage>
+    &lt;/glossAlt>
+  &lt;/glossBody><b>
+&lt;/glossentry>
+</b></codeblock>
     </example>
   </refbody>
 </reference>

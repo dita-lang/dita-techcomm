@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
- "reference.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossary2" xml:lang="en-us">
-<title>Glossentry elements</title>
-<shortdesc>Use the glossary entry topic type to define glossary terms. Each glossentry topic should
-  define a single sense of a term.</shortdesc>
-<prolog><metadata>
-<keywords><indexterm>glossentry elements</indexterm></keywords>
-</metadata></prolog>
+  <title>Glossary entry elements</title>
+  <shortdesc rev="review-a-2024">The glossary entry specialization contains markup that supports the
+    development and delivery of glossaries. It also can be used in conjunction with the
+    abbreviated-form domain to provide a solution for rendering different forms of a term on first
+    and later usage in a publication.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>glossentry elements</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
 </reference>

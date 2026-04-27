@@ -3,14 +3,13 @@
  "reference.dtd">
 <reference id="bookmap" xml:lang="en-us">
   <title><xmlelement>bookmap</xmlelement></title>
-  <shortdesc>The <xmlelement>bookmap</xmlelement> element is a map specialization used to describe
-    the relationships among a set of DITA topics intended to be configured as a traditional
-    book.</shortdesc>
+  <shortdesc>The <xmlelement>bookmap</xmlelement> element is a map specialization that is used to
+      <ph rev="review-k">assemble</ph> DITA topics as a traditional book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>bookmap</indexterm>
-        <indexterm>Bookmap elements<indexterm>bookmap</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>bookmap</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -25,17 +24,19 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>bookmap</xmlelement> element is specialized from
           <xmlelement>map</xmlelement>. It is defined in the bookmap module.</p></section>
-    <section conkeyref="reuse-map/attributes" id="attributes"></section>
+    <section conkeyref="reuse-map/attributes" id="attributes"/>
     <example id="example" otherprops="examples"
-      ><title>Example</title><codeblock>&lt;bookmap xml:lang="en-us">
+      ><title>Example</title>
+      <p>The following code sample shows how a <xmlelement>bookmap</xmlelement> can be used to
+        organize content into a common book structure:</p><codeblock>&lt;bookmap xml:lang="en-us">
   &lt;booktitle>
-    &lt;booklibrary>Books about stuff&lt;/booklibrary>
-    &lt;mainbooktitle>A book about one thing&lt;/mainbooktitle>
+    &lt;booklibrary><ph rev="review-k">Book library</ph>&lt;/booklibrary>
+    &lt;mainbooktitle><ph rev="review-k">Book title</ph>&lt;/mainbooktitle>
   &lt;/booktitle>
   &lt;bookmeta>
     &lt;bookrights>
-      &lt;copyrfirst>&lt;year>2016&lt;/year>&lt;/copyrfirst>
-      &lt;copyrlast>&lt;year>2020&lt;/year>&lt;/copyrlast>
+      &lt;copyrfirst>&lt;year>2019&lt;/year>&lt;/copyrfirst>
+      &lt;copyrlast>&lt;year>2023&lt;/year>&lt;/copyrlast>
       &lt;bookowner>
         &lt;organization>OASIS&lt;/organization>
       &lt;/bookowner>
@@ -63,8 +64,9 @@
     &lt;topicref href="insideApp2.dita">&lt;/topicref>
   &lt;/appendix>
   &lt;backmatter>
-    &lt;amendments href="updatesToTheBook.dita"/>
+    <ph rev="review-k">&lt;amendments href="RevisionHistoryTable.dita"/></ph>
     &lt;booklists>
+      &lt;glossarylist href="listofterms.dita"/>
       &lt;trademarklist href="listoftrademarks.dita"/>
       &lt;indexlist/>
     &lt;/booklists>

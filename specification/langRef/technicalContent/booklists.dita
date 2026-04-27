@@ -2,12 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="booklists" xml:lang="en-us">
     <title><xmlelement>booklists</xmlelement></title>
-    <shortdesc>The <xmlelement>booklists</xmlelement> element references lists of various kinds
-        within the book.</shortdesc>
+    <shortdesc>The <xmlelement>booklists</xmlelement> element is a container for lists of various
+        kinds within the book.</shortdesc>
     <prolog>
         <metadata>
             <keywords>
-                <indexterm>Bookmap elements<indexterm>booklists</indexterm></indexterm>
+                <indexterm>Book map elements<indexterm>booklists</indexterm></indexterm>
                 <indexterm>booklists</indexterm>
             </keywords>
         </metadata>
@@ -25,7 +25,7 @@
         </section>
         <section id="attributes"><title>Attributes</title>
             <p>The following attributes are available on this element: <ph
-                conkeyref="reuse-attributes/ref-commonmapatts"/>, <ph
+                    conkeyref="reuse-attributes/ref-commonmapatts"/>, <ph
                     conkeyref="reuse-attributes/ref-universalatts"/>, <xref
                     keyref="attributes-common/attr-format"><xmlatt>format</xmlatt></xref>, <xref
                     keyref="attributes-common/attr-keyref"><xmlatt>keyref</xmlatt></xref>, <xref
@@ -40,12 +40,12 @@
     &lt;mainbooktitle>Sample publication&lt;/mainbooktitle>
   &lt;/booktitle>
   &lt;frontmatter>
-    &lt;booklists>
+    <ph rev="review-k">&lt;booklists>
       &lt;toc>
-      &lt;amendments/>
       &lt;figurelist/>
       &lt;tablelist/>
-    &lt;/booklists>
+      &lt;amendments/>
+    &lt;/booklists></ph>
   &lt;/frontmatter>
   ...
   &lt;backmatter>

@@ -22,7 +22,7 @@
                     ><xmlelement>prerequisites</xmlelement></xref></li>
               <li>Contextual information: <xref keyref="elements-context"
                     ><xmlelement>context</xmlelement></xref></li>
-              <li>Sections: <xmlelement>sections</xmlelement></li>
+              <li>Sections: <xmlelement>section</xmlelement></li>
             </ul>
             <p>These sections are all optional. They can appear in any
               order and can occur multiple times.</p></dd>
@@ -66,7 +66,7 @@
         stylesheets used to generate output produce different labels for
         each of the <xmlelement>prereq</xmlelement> sections, triggered by
         the value of the <xmlatt>outputclass</xmlatt> attribute.</p>
-      <codeblock>&lt;task id="changing_a_tire">
+      <codeblock base="ci-generaltask">&lt;task id="changing_a_tire">
   &lt;title>Changing a tire&lt;/title>
   &lt;taskbody>
     &lt;context>&lt;p>A flat tire typically shows up unexpectedly and catapults itself onto the 
@@ -102,7 +102,8 @@
       &lt;/ul>
     &lt;/prereq>
     &lt;steps>
-      &lt;!-- ... -->
+      &lt;step>&lt;cmd>Verify you are in a safe location to change the tire.&lt;/cmd>&lt;/step>
+      &lt;!-- more steps -->
     &lt;/steps>
     &lt;postreq>
       &lt;!-- ... -->

@@ -214,7 +214,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 User Interface Domain//EN"
             <text/>
             <ref name="basic.ph.notm"/>
             <ref name="data.elements.incl"/>
-            <ref name="foreign.unknown.incl"/>
+            <ref name="foreign"/>
             <ref name="txt.incl"/>
           </choice>
         </zeroOrMore>

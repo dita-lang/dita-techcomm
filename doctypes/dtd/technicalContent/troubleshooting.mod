@@ -54,7 +54,7 @@
               "((%title;)?,
                 (%basic.block; |
                  %data.elements.incl; |
-                 %foreign.unknown.incl; |
+                 %foreign; |
                  %txt.incl;)*)"
 >
 <!--                    LONG NAME: Troubleshooting                 -->

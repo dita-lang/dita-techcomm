@@ -3,13 +3,15 @@
  "reference.dtd">
 <reference id="toc" xml:lang="en-us">
   <title><xmlelement>toc</xmlelement></title>
-  <shortdesc>The <xmlelement>toc</xmlelement> element indicates to the processing software that the
-    author wants a table of contents generated at the particular location.</shortdesc>
+  <shortdesc>The <xmlelement>toc</xmlelement> element either references a
+    topic that contains a table of contents for the book, or it indicates
+    to a processor that a table of contents should be generated at this
+    location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>toc</indexterm>
-        <indexterm>Bookmap elements<indexterm>toc</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>toc</indexterm></indexterm>
         <indexterm>Table of contents (toc)</indexterm>
       </keywords>
     </metadata>
@@ -17,10 +19,9 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
-        table of contents at the specified location in the map. If the <xmlatt>href</xmlatt>
-        attribute is specified, the referenced topic or map contains a manually created table of
-        contents.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>toc</xmlelement> element, a processor typically generates a table of contents
+        based on topics used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

@@ -50,7 +50,7 @@
                          %basic.ph.notm; |
                          %data.elements.incl; |
                          %draft-comment; |
-                         %foreign.unknown.incl; |
+                         %foreign; |
                          %required-cleanup;)*"
 >
 <!ENTITY % codeph.attributes
@@ -66,7 +66,7 @@
                          %basic.ph.notm; |
                          %coderef; |
                          %data.elements.incl; |
-                         %foreign.unknown.incl; |
+                         %foreign; |
                          %txt.incl;)*"
 >
 <!ENTITY % codeblock.attributes

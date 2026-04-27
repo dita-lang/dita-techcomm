@@ -104,7 +104,7 @@
                        "(#PCDATA |
                          %basic.ph.notm; |
                          %data.elements.incl; |
-                         %foreign.unknown.incl; |
+                         %foreign; |
                          %txt.incl;)*"
 >
 <!ENTITY % screen.attributes

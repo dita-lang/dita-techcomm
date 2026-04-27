@@ -72,7 +72,7 @@ PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Concept//EN"
         <ref name="basic.block.noexample"/>
         <ref name="data.elements.incl"/>
         <ref name="draft-comment"/>
-        <ref name="foreign.unknown.incl"/>
+        <ref name="foreign"/>
         <ref name="required-cleanup"/>
      </choice>
     </define>

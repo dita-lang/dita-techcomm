@@ -42,7 +42,7 @@
               "%basic.block.noexample; |
                %data.elements.incl; |
                %draft-comment; |
-               %foreign.unknown.incl; |
+               %foreign; |
                %required-cleanup;"
 >
 

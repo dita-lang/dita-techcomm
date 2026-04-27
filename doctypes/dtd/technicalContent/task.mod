@@ -280,7 +280,7 @@
                %basic.block.noexample; |
                %basic.ph; |
                %data.elements.incl; |
-               %foreign.unknown.incl; |
+               %foreign; |
                %txt.incl;"
 >
 

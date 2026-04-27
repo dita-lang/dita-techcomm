@@ -8,7 +8,7 @@
   <prolog>
     <metadata>
       <keywords>
-        <indexterm>Bookmap elements<indexterm>booktitlealt</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>booktitlealt</indexterm></indexterm>
         <indexterm>booktitlealt</indexterm>
       </keywords>
     </metadata>
@@ -25,10 +25,12 @@
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock>&lt;bookmap>
+      <p>The following code sample shows a <xmlelement>booktitlealt</xmlelement> element is used to
+        provide a <ph rev="review-k">subtitle for</ph> the main book title:</p>
+      <codeblock rev="review-k">&lt;bookmap>
   &lt;booktitle>
-    &lt;mainbooktitle>This is my big and fancy book&lt;/mainbooktitle>
-    &lt;booktitlealt>Shorter title&lt;/booktitlealt>
+    &lt;mainbooktitle>Product Z Installation, Operation, and Maintenance Manual&lt;/mainbooktitle>
+    &lt;booktitlealt>Getting to know Product Z&lt;/booktitlealt>
   &lt;/booktitle>
   &lt;!-- ... -->
 &lt;/bookmap></codeblock></example>

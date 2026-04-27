@@ -58,8 +58,8 @@
   &lt;title>E247: Memory fault has occurred&lt;/title>
   &lt;troublebody>
     <b>&lt;troubleSolution></b>
-      &lt;cause>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
-           transient memory fault.&lt;/cause>
+      &lt;cause>&lt;p>The &lt;msgnum>E247&lt;/msgnum> error message is generated due to a
+           transient memory fault.&lt;/p>&lt;/cause>
       &lt;remedy>
         &lt;steps>
           &lt;step>&lt;cmd>Reset the alarm.&lt;/cmd>&lt;/step>

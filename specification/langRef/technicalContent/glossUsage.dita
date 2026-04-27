@@ -3,8 +3,10 @@
  "reference.dtd">
 <reference id="glossUsage" xml:lang="en-us">
   <title><xmlelement>glossUsage</xmlelement></title>
-  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about the correct
-    use of a term, such as where or how it can be used.</shortdesc>
+  <shortdesc>The <xmlelement>glossUsage</xmlelement> element provides information about how to use
+    the term <ph rev="review-a-2024">that is</ph> specified in the
+      <xmlelement>glossterm</xmlelement> element. It also can be used to provide usage information
+    for acronyms or synonyms.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -20,12 +22,32 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
+      <!--<draft-comment author="dawnstevens">Although I realize the element is specialized from Note, I question the need to point out the type and othertype attributes; they don't seem to me to have any meaning in the content of a usage note. A usage note is type usage note, in my mind. Why would anyone specify any type or othertype?</draft-comment>-->
+      <!--<draft-comment author="robander" time="Jan 18, 2024">For every attribute that is defined, we need to include it in the attribute list, whether we expect it to be used or not. If we want to modify this (but not remove the attributes), then we need to modify the conref to "note" so that we pull in the attribute list, but then add an exception saying that these attributes will not typically be used, that the type is expected to be a scope usage note.</draft-comment>-->
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <p>See the example in <xref href="glossentry.dita#glossentry/example"
-            ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p>The following code sample shows how the <xmlelement>glossUsage</xmlelement> element is used
+        to provide additional information about possible variants for the term "soft drink:"</p>
+      <codeblock>&lt;glossentry id="softdrink">
+  &lt;glossterm>soft drink&lt;/glossterm>
+  &lt;glossdef>A nonalcoholic drink, especially one that is carbonated.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossAlt>
+      &lt;glossSynonym>pop&lt;/glossSynonym>
+      <b>&lt;glossUsage>Used primarily in the North and Midwest&lt;/glossUsage></b>
+    &lt;/glossAlt>
+    &lt;glossAlt>
+      &lt;glossSynonym>soda&lt;/glossSynonym>  
+      <b>&lt;glossUsage>Used primarily in the West and Northeast&lt;/glossUsage></b>
+    &lt;/glossAlt>
+    &lt;glossAlt>
+      &lt;glossSynonym>Coke&lt;/glossSynonym>
+      <b>&lt;glossUsage>Used primarily in the South&lt;/glossUsage></b>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
     </example>
   </refbody>
 </reference>

@@ -123,6 +123,29 @@
         <stentry>Contains content prepped for review I: "Equation, MathML,
           and SVG domains"</stentry>
       </strow>
+      <strow>
+        <stentry>16</stentry>
+        <stentry>01 November 2023</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Contains the following content<ul>
+            <li>Content revised as part of review K</li>
+            <li>Draft comments from Dawn Stevens in glossary content</li>
+          </ul></stentry>
+      </strow>
+            <strow>
+                <stentry>18</stentry>
+                <stentry>26 March 2024</stentry>
+                <stentry>Kristen James Eberlein</stentry>
+                <stentry>Contains content updated as part of review of "Glossary entry elements and
+                        <xmlelement>abbreviated-form</xmlelement></stentry>
+            </strow>
+      <strow>
+        <stentry>19</stentry>
+        <stentry>14 May 2024</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Contains content updated for the 2nd review of "Glossentry
+          elements"</stentry>
+      </strow>
         </simpletable>
     </refbody>
 </reference>

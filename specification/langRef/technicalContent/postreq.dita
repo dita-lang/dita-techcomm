@@ -20,12 +20,13 @@
       <title>Example</title>
       <p>The following code sample shows how a user might be directed to
         notify a test proctor after completing a test.</p>
-      <codeblock>&lt;steps>
-&lt;!-- ... -->
-  &lt;step>
-    &lt;cmd>Click &lt;uicontrol>Done&lt;/uicontrol> to complete the test.&lt;/cmd>
-  &lt;/step>
-&lt;/steps>
-<b>&lt;postreq&gt;</b>Notify the proctor upon completing this self-test.<b>&lt;/postreq&gt;</b> 
-</codeblock>
+      <codeblock>&lt;taskbody>
+  &lt;steps>
+    &lt;!-- ... -->
+    &lt;step>
+      &lt;cmd>Click &lt;uicontrol>Done&lt;/uicontrol> to complete the test.&lt;/cmd>
+    &lt;/step>
+  &lt;/steps>
+  <b>&lt;postreq&gt;</b>Notify the proctor upon completing this self-test.<b>&lt;/postreq&gt;</b> 
+&lt;/taskbody></codeblock>
     </example></refbody></reference>

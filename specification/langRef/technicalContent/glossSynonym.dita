@@ -4,7 +4,8 @@
 <reference id="glossSynonym" xml:lang="en-us">
 <title><xmlelement>glossSynonym</xmlelement></title>
 <shortdesc>The <xmlelement>glossSynonym</xmlelement> element provides a term that is a synonym of
-the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+    the term <ph rev="review-a-2024">that is</ph> specified by the
+      <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords>
             <indexterm>glossaries<indexterm>synonyms</indexterm></indexterm>
@@ -13,11 +14,10 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
 </metadata></prolog>
 <refbody>
       <section id="usage-information">
-         <title>Usage information</title>
-         <note>A list of synonyms is specific to the language, so translation of a
-               <xmlelement>glossentry</xmlelement> topic might result in an empty
-               <xmlelement>glossSynonym</xmlelement> element.</note>
-      </section>
+      <title>Usage information</title>
+      <p>The <xmlelement>glossSynonym</xmlelement> element should not be used to specify an acronym;
+        use the <xmlelement>glossAcronym</xmlelement> element for that purpose.</p>
+    </section>
       <section id="specialization-hierarchy">
          <title>Specialization hierarchy</title>
          <p>The <xmlelement>glossSynonym</xmlelement> element is specialized from
@@ -26,8 +26,20 @@ the primary value in the <xmlelement>glossterm</xmlelement> element.</shortdesc>
       <section conkeyref="reuse-title/attributes" id="attributes"/>
       <example id="example" otherprops="examples">
          <title>Example</title>
-         <p>See the example in <xref href="glossentry.dita#glossentry/example"
-                  ><xmlelement>glossentry</xmlelement>.</xref></p>
+      <p rev="review-a-2024">The following code sample shows how the
+          <xmlelement>glossSynonym</xmlelement> element can be used to identify a synonym for the
+        word automobile. In this case the synonym is enclosed in a term with
+        <xmlatt>keyref</xmlatt>, allowing a tool to optionally link to the other definition:</p>
+      <codeblock>&lt;glossentry id="automobile">
+    &lt;glossterm>Automobile&lt;/glossterm>
+    &lt;glossdef>A road vehicle, typically with four wheels, powered by an
+    internal combustion engine or an electric motor.&lt;/glossdef>
+  &lt;glossBody>
+    &lt;glossAlt>
+      <b rev="review-a-2024">&lt;glossSynonym>&lt;term keyref="gloss.car">car&lt;/term>&lt;/glossSynonym></b>
+    &lt;/glossAlt>
+  &lt;/glossBody>
+&lt;/glossentry></codeblock>
       </example>
 
 </refbody>

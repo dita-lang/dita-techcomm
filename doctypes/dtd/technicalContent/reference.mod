@@ -84,7 +84,7 @@
 <!ENTITY % refbody.content
                        "(%data.elements.incl; |
                          %example; |
-                         %foreign.unknown.incl; |
+                         %foreign; |
                          %refbodydiv; |
                          %refsyn; |
                          %properties; |
@@ -103,7 +103,7 @@
 <!ENTITY % refbodydiv.content
                        "(%data.elements.incl; |
                          %example; |
-                         %foreign.unknown.incl; |
+                         %foreign; |
                          %refbodydiv; |
                          %refsyn; |
                          %properties; |

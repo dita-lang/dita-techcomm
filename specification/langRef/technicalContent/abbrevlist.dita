@@ -10,15 +10,17 @@
       <keywords>
         <indexterm><xmlelement>abbrevlist</xmlelement></indexterm>
         <indexterm>abbreviation list</indexterm>
-        <indexterm>Bookmap elements<indexterm><xmlelement>abbrevlist</xmlelement></indexterm></indexterm>
+        <indexterm>Book map
+          elements<indexterm><xmlelement>abbrevlist</xmlelement></indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
-        list of abbreviations at the specified location in the map.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>abbrevlist</xmlelement> element, a processor could generate a list of
+        abbreviations used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
@@ -30,6 +32,14 @@
       <div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples">
       <title>Example</title>
-      <codeblock xml:space="preserve">&lt;abbrevlist href="abbrev.dita"/&gt;</codeblock></example>
+      <p>The following code sample shows how to reference a list of abbreviations as part of a
+        publication's back matter:</p>
+      <codeblock xml:space="preserve">&lt;backmatter>
+  &lt;booklists>
+    &lt;abbrevlist href="abbrev.dita"/&gt;
+    &lt;indexlist/>
+  &lt;/booklists>
+&lt;/backmatter>
+</codeblock></example>
   </refbody>
 </reference>

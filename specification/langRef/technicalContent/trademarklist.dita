@@ -3,21 +3,24 @@
  "reference.dtd">
 <reference id="trademarklist" xml:lang="en-us">
   <title><xmlelement>trademarklist</xmlelement></title>
-  <shortdesc>The <xmlelement>trademarklist</xmlelement> element references a topic that contains a
-    list of trademarks within the book.</shortdesc>
+  <shortdesc>The <xmlelement>trademarklist</xmlelement> element either
+    references a topic that contains a list of trademarks in the book, or
+    it indicates to a processor that a list of trademarks should be
+    generated at this location in the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>trademarklist</indexterm>
-        <indexterm>bookmap elements<indexterm>trademarklist</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>trademarklist</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate a
-        list of trademarks at the specified location in the map.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>trademarklist</xmlelement> element, a processor could generate a list of
+        trademarks used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

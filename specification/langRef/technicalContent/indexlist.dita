@@ -3,22 +3,24 @@
  "reference.dtd">
 <reference id="indexlist" xml:lang="en-us">
   <title><xmlelement>indexlist</xmlelement></title>
-  <shortdesc>The <xmlelement>indexlist</xmlelement> element indicates to the processing software
-    that the author wants an index at the particular location.</shortdesc>
+  <shortdesc>The <xmlelement>indexlist</xmlelement> element either
+    references a topic that contains an index for the book, or it indicates
+    to a processor that an index should be generated at this location in
+    the book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
         <indexterm>indexlist</indexterm>
-        <indexterm>Bookmap elements<indexterm>indexlist</indexterm></indexterm>
+        <indexterm>Book map elements<indexterm>indexlist</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>When the <xmlatt>href</xmlatt> attribute is not specified, a processor might generate an
-        index at the specified location in the map. If the <xmlatt>href</xmlatt> attribute is
-        specified, the referenced topic or map contains a manually created index.</p>
+      <p rev="review-k"><ph conkeyref="reuse-tc-file/booklist-processing"/> For the
+          <xmlelement>indexlist</xmlelement> element, a processor typically generates an index based
+        on index terms used in the book.</p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

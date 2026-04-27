@@ -3,8 +3,9 @@
  "reference.dtd">
 <reference id="glossSymbol" xml:lang="en-us">
 <title><xmlelement>glossSymbol</xmlelement></title>
-<shortdesc>The <xmlelement>glossSymbol</xmlelement> element identifies a standard image that is
-    associated with the subject of the <xmlelement>glossterm</xmlelement> element.</shortdesc>
+<shortdesc>The <xmlelement>glossSymbol</xmlelement> element identifies <ph rev="review-a-2024">an
+      image</ph> that is associated with the subject of the term <ph rev="review-a-2024">that
+      is</ph> specified by <xmlelement>glossterm</xmlelement> element.</shortdesc>
 <prolog><metadata>
 <keywords>
         <indexterm>glossaries<indexterm>images</indexterm></indexterm>
@@ -20,12 +21,18 @@
     <section conkeyref="reuse-image/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>glossSymbol</xmlelement> can be used to
+        associate a regional classification icon with the Atlantic puffin:</p>
       <codeblock>&lt;glossentry id="atlanticpuffin">
   &lt;glossterm>Atlantic Puffin&lt;/glossterm>
-  &lt;glossdef>A sea bird that lives in the atlantic&lt;/glossdef>
+  &lt;glossdef>A sea bird that lives in the Atlantic
+    &lt;image href="puffinicon.jpg">
+      &lt;alt>Image of an atlantic puffin&lt;/alt>
+    &lt;/image>
+  &lt;/glossdef>
   &lt;glossBody>
-    <b>&lt;glossSymbol href="puffinicon.jpg" scope="local"></b>
-      &lt;alt>Atlantic puffin icon&lt;/alt>
+    <b>&lt;glossSymbol href="atlantic.jpg" scope="local"></b>
+      &lt;alt>Icon denoting the Atlantic region&lt;/alt>
     <b>&lt;/glossSymbol></b>
   &lt;/glossBody>
 &lt;/glossentry></codeblock>
