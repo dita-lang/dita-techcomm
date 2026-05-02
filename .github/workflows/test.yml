@@ -9,12 +9,52 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Set up JDK 1.17
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
           cache: 'gradle'
+      - name: Compare DTD and Relax NG grammar reports
+        run: |
+          set -e
+          mkdir -p build/grammar-compare/classes build/grammar-compare/reports
+          javac -d build/grammar-compare/classes \
+            specification/baseSpec/.github/resources/DtdToJson.java \
+            specification/baseSpec/.github/resources/RngToJson.java
+
+          compare_grammar_pair() {
+            name="$1"
+            dtd_path="$2"
+            rng_path="$3"
+            dtd_json="build/grammar-compare/reports/${name}-dtd.json"
+            rng_json="build/grammar-compare/reports/${name}-rng.json"
+
+            java -cp build/grammar-compare/classes DtdToJson \
+              --catalog doctypes/catalog.xml \
+              --catalog specification/baseSpec/doctypes/catalog.xml \
+              -o "$dtd_json" \
+              "$dtd_path"
+            java -cp build/grammar-compare/classes RngToJson \
+              --catalog doctypes/catalog.xml \
+              --catalog specification/baseSpec/doctypes/catalog.xml \
+              -o "$rng_json" \
+              "$rng_path"
+            python3 specification/baseSpec/.github/resources/compare_json_reports.py \
+              "$dtd_json" \
+              "$rng_json" \
+              --quiet
+          }
+
+          compare_grammar_pair bookmap \
+            doctypes/dtd/bookmap/bookmap.dtd \
+            doctypes/rng/bookmap/bookmap.rng
+
+          for name in concept ditabase generalTask glossentry glossgroup map reference task topic troubleshooting; do
+            compare_grammar_pair "$name" \
+              "doctypes/dtd/technicalContent/${name}.dtd" \
+              "doctypes/rng/technicalContent/${name}.rng"
+          done
       - name: Cache DITA-OT
         uses: actions/cache@v4
         with:
