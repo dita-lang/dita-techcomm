@@ -5,6 +5,7 @@
  <title>Technical content elements</title>
  <topicref href="langRef-technicalContent.dita">
   <topicref href="quick-reference/technicalContent-elements-a-to-z.dita"/>
+  <topicref href="quick-reference/tc-attributes-a-to-z.dita"/>
   <mapref href="topic-and-map-specializations.ditamap" format="ditamap"/>
   
   <topicref href="containers/technicalContent-domain-elements.dita">
