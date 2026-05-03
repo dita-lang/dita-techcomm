@@ -3,6 +3,13 @@
  "concept.dtd">
 <concept id="conformance" xml:lang="en-us">
   <title>Conformance</title>
-  <shortdesc><draft-comment author="BobThomas">Conformance statements to technical content will go
-      in this topic.</draft-comment></shortdesc>
+  <shortdesc>An implementation is a conforming implementation of the DITA for Technical Content
+    specification if it adds support for technical content elements while also conforming to the
+    base DITA specification. A document is a conforming DITA for Technical Content document if it
+    uses or specializes elements from the DITA for Technical Content specification while also
+    conforming to the base DITA specification.</shortdesc>
+  <conbody>
+    <draft-comment author="robander">Are there any additional rules to conform here? For example,
+      implementations must support abbreviated form, or anything else?</draft-comment>
+  </conbody>
 </concept>
