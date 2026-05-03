@@ -4,7 +4,7 @@
 <title>DITA Attributes, A to Z</title>
 <shortdesc>This topic includes a simple list of all attributes defined on all elements in this specification.</shortdesc>
 <refbody><section>
-<p>This report includes only elements from the technical communications specification; it does not include elements from the base specification.</p>
+<p>This report includes only elements from the DITA for Technical Content specification; it does not include elements from the base specification.</p>
 <note>Some attributes are defined differently for different elements; 
 check the element description for details on values and any expected processing.</note>
 <sl id="attributelist">
