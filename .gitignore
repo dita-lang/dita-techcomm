@@ -1,0 +1,5 @@
+.DS_Store
+# Ignore the generated attribute topic within the resources folder
+resources/tc-attributes-a-to-z.dita
+# Ignore test build directory
+/build
