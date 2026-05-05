@@ -50,7 +50,7 @@
         contains the &lt;msgnum>E247&lt;/msgnum> error message.&lt;/p>
     &lt;/condition>
     &lt;troubleSolution>
-      &lt;cause>p>A transient memory fault has occurred.&lt;/p>&lt;/cause>
+      &lt;cause>&lt;p>A transient memory fault has occurred.&lt;/p>&lt;/cause>
       &lt;remedy>
         <ph rev="review-e">&lt;responsibleParty>System administrator&lt;/responsibleParty></ph>
         &lt;steps>

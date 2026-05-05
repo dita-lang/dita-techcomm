@@ -54,7 +54,8 @@
     &lt;/condition>
     &lt;troubleSolution>
       &lt;!-- . . . -->
-      <b>&lt;cause></b>The problem is usually due to the power not being supplied to the system through
+      <b>&lt;cause></b>
+             &lt;p>The problem is usually due to the power not being supplied to the system through
              the electrical outlet. Often, a circuit breaker has been tripped so that no
              power is available at the outlet.&lt;/p>
       <b>&lt;/cause></b>

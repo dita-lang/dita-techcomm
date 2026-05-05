@@ -44,7 +44,7 @@
   &lt;steps>
     &lt;step>&lt;cmd>Run the following command from the command line: 
                &lt;codeph>msiexec.exe /I C:\Windows\Installer\XXXXX.msi&lt;/codeph>&lt;/cmd>
-    &lt;step>
+    &lt;/step>
     &lt;!-- ... -->
   &lt;/steps>
 &lt;/remedy></codeblock>

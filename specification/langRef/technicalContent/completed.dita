@@ -48,6 +48,7 @@
         &lt;month>10&lt;/month>&lt;year>2022&lt;/year>
       <b>&lt;/completed></b>
     &lt;/edited>
+  &lt;/bookchangehistory>
 &lt;/bookmeta></codeblock>
     </example>
   </refbody>

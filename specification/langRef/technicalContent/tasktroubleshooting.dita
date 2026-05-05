@@ -45,7 +45,7 @@
         contains brief information that explains the steps that the user can take when the results
         of a task are not as expected. For a complex remedy, the author could provide a link to
         another task topic.</p>
-      <codeblock>&lt;task id="add-new-categories>
+      <codeblock>&lt;task id="add-new-categories">
   &lt;title>Adding new user categories&lt;/title>
   &lt;taskbody>
     &lt;steps>
@@ -65,7 +65,8 @@
       &lt;/p>
     <b>&lt;/tasktroubleshooting></b>
   &lt;/taskbody>
-      </codeblock>
+&lt;/task>
+</codeblock>
     </example>
   </refbody>
 </reference>
