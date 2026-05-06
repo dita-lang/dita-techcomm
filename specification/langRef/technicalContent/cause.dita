@@ -50,7 +50,8 @@
       <codeblock rev="review-e">&lt;troubleshooting id="simple-example">
   &lt;title>System will not turn on&lt;/title>
   &lt;troublebody>
-    &lt;condition>The system is plugged in<ph rev="review-e"> and powered up</ph>, but the system will not start.
+    &lt;condition>
+      &lt;p>The system is plugged in<ph rev="review-e"> and powered up</ph>, but the system will not start.&lt;/p>
     &lt;/condition>
     &lt;troubleSolution>
       &lt;!-- . . . -->

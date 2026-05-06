@@ -49,7 +49,8 @@
   &lt;title>Adding new user categories&lt;/title>
   &lt;taskbody>
     &lt;steps>
-    &lt;!-- ... -->
+      &lt;step>&lt;cmd>&lt;!-- ... -->&lt;/cmd>&lt;/step>
+      &lt;!-- ... -->
     &lt;/steps>
     &lt;result>
       &lt;p>The User Type menu displays the new types you added.&lt;/p>
