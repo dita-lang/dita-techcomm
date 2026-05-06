@@ -17,12 +17,10 @@
 <section id="attributes"><title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
    </section>
-<example id="example" otherprops="examples" rev="review-a"
-        ><title>Example</title><p>The following code sample is of a task
-        topic that is used both in a product manual and in a tutorial. Note
-        that the <xmlelement>context</xmlelement> and
-          <xmlelement>tutorialinfo</xmlelement> elements are intended to be
-        rendered only when the tutorial is
+<example id="example" otherprops="examples" rev="review-a"><title>Example</title><p>The following
+        code sample is of a task topic that is used both in a product manual and in a tutorial. Note
+        that the <xmlelement>context</xmlelement> and <xmlelement>tutorialinfo</xmlelement> elements
+        are intended to be rendered only when the tutorial is
       generated.</p><codeblock>&lt;task id="task-msg-x1z-gwb">
   &lt;title>Taking pictures in low light without a flash&lt;/title>
   &lt;shortdesc>Taking pictures in low light situations without a flash can be a challenge if you
@@ -53,7 +51,7 @@
             Take a picture at each of the following f-stops: f/2.0, f/4, f/8, and f/16. 
             Compare your results.&lt;/tutorialinfo></b>
       &lt;/step>
-      &lt;!-- ... --.
+      &lt;!-- ... -->
     &lt;/steps>
   &lt;/taskbody>
 &lt;/task></codeblock><!--<p>The following code sample shows how the <xmlelement>tutorialinfo</xmlelement> element might be used in a task topic that is part of a tutorial.</p><codeblock>&lt;steps&gt;

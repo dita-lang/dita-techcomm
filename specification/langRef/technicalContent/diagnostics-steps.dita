@@ -70,7 +70,7 @@
             &lt;info>If you received results such as &lt;msgph>Timed Out&lt;/msgph>, 
                 &lt;msgph>Server Failure&lt;/msgph>, &lt;msgph>Refused&lt;/msgph>, 
                 &lt;msgph>No Response from Server&lt;/msgph>, or 
-                &lt;msgph>Network is unreachable&lt;msgph>, the problem originates in the DNS 
+                &lt;msgph>Network is unreachable&lt;/msgph>, the problem originates in the DNS 
                 server for your destination.&lt;/info>
           &lt;/step>
           &lt;step>

@@ -35,7 +35,7 @@
         group chapters in order to divide a book into two major sections for task and reference
         material:<codeblock xml:space="preserve">&lt;bookmap>
   &lt;title>Using and maintaining Product Zed&lt;/title>
-  &lt;!-- ... metadata and front matter ... ->
+  &lt;!-- ... metadata and front matter ... -->
   &lt;part href="taskguide.dita"&gt;
     &lt;chapter href="intro.dita"&gt;
       &lt;topicref href="caring.dita"/&gt;

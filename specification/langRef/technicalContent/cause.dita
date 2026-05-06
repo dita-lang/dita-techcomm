@@ -50,11 +50,13 @@
       <codeblock rev="review-e">&lt;troubleshooting id="simple-example">
   &lt;title>System will not turn on&lt;/title>
   &lt;troublebody>
-    &lt;condition>The system is plugged in<ph rev="review-e"> and powered up</ph>, but the system will not start.
+    &lt;condition>
+      &lt;p>The system is plugged in<ph rev="review-e"> and powered up</ph>, but the system will not start.&lt;/p>
     &lt;/condition>
     &lt;troubleSolution>
       &lt;!-- . . . -->
-      <b>&lt;cause></b>The problem is usually due to the power not being supplied to the system through
+      <b>&lt;cause></b>
+             &lt;p>The problem is usually due to the power not being supplied to the system through
              the electrical outlet. Often, a circuit breaker has been tripped so that no
              power is available at the outlet.&lt;/p>
       <b>&lt;/cause></b>

@@ -44,13 +44,13 @@
     &lt;context>As you perform this procedure, you can select the conventions that you want to 
              use for file names.&lt;/context>
     &lt;steps>
-      &lt;step>&lt;cmd>&lt;!-- ... -->&lt;/cmd>&lt;/step>
+      &lt;step>&lt;cmd> &lt;!-- ... --> &lt;/cmd>&lt;/step>
     &lt;/steps>
     &lt;result>In the File Manager view, you can see the file names and paths of the DITA
             topics.&lt;/result>
     &lt;tasktroubleshooting>If you cannot see the file name and paths of the DITA topics, refresh
             the view.&lt;/tasktroubleshooting>
-    &lt;example> &lt;! -- ... --> &lt;/example>
+    &lt;example> &lt;!-- ... --> &lt;/example>
     &lt;postreq>You now can create a relationship table to define links between the topics in 
              your DITA map.&lt;/postreq>
   <b>&lt;/taskbody></b>

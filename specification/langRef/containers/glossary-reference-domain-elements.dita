@@ -2,5 +2,6 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="glossary-reference-domain-elements">
     <title>Glossary-reference domain elements</title>
-    <shortdesc></shortdesc>
+    <shortdesc>The glossary-reference domain is a map domain that specializes the
+            <xmlelement>glossref</xmlelement> element for use with glossary topics.</shortdesc>
 </reference>

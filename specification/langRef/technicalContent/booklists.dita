@@ -41,13 +41,13 @@
   &lt;/booktitle>
   &lt;frontmatter>
     <ph rev="review-k">&lt;booklists>
-      &lt;toc>
+      &lt;toc/>
       &lt;figurelist/>
       &lt;tablelist/>
       &lt;amendments/>
     &lt;/booklists></ph>
   &lt;/frontmatter>
-  ...
+  &lt;!-- ... -->
   &lt;backmatter>
     &lt;booklists>
       &lt;abbrevlist/>
