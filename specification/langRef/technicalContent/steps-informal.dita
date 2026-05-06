@@ -27,7 +27,7 @@
 </section>
 <example id="example" otherprops="examples"><title>Example</title>
             <p>The following code sample shows how an author provided
-        informal information about how to grow a flower from seed:</p><codeblock>&lt;task id="growing-flower">
+        informal information about how to grow a flower from seed:</p><codeblock base="ci-generaltask">&lt;task id="growing-flower">
   &lt;title>Growing a flower from seed&lt;/title>
   &lt;taskbody>
     <b>&lt;steps-informal></b>

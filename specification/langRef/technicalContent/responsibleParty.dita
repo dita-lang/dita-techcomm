@@ -39,8 +39,8 @@
           rev="review-e">to specify the prerequisites for performing a
           procedure</ph>:</p>
       <codeblock rev="review-e">&lt;remedy>
-  <b>&lt;responsible-party></b>You must have administrative privileges to perform this procedure.
-  <b>&lt;/responsible-party></b>
+  <b>&lt;responsibleParty></b>You must have administrative privileges to perform this procedure.
+  <b>&lt;/responsibleParty></b>
   &lt;steps>
     &lt;step>&lt;cmd>Run the following command from the command line: 
                &lt;codeph>msiexec.exe /I C:\Windows\Installer\XXXXX.msi&lt;/codeph>&lt;/cmd>
