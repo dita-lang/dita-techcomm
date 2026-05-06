@@ -113,7 +113,7 @@
             <ph rev="review-e">possible</ph> remedies. It also includes
           several <xmlelement>troubleSolution</xmlelement> elements that
             <ph rev="review-e">reuse</ph> steps from other DITA topics.</p>
-        <codeblock>troubleshooting id="blinking-lights">
+        <codeblock>&lt;troubleshooting id="blinking-lights">
   &lt;title>Blinking printer lights&lt;/title>
   &lt;troublebody>
   &lt;condition>&lt;p>The indicator lights are blinking and you are unable to print.&lt;/p>&lt;/condition>
@@ -125,7 +125,7 @@
           &lt;stentry>Issue&lt;/stentry>
         &lt;/sthead>
         &lt;strow>
-          &lt;stentry>The power light is flashing and the resume light is off./stentry>
+          &lt;stentry>The power light is flashing and the resume light is off.&lt;/stentry>
           &lt;stentry>The printer is preparing to print. No action is required. The light 
                    will stop flashing when the printer has received all data.&lt;/stentry>
         &lt;/strow>

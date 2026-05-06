@@ -46,7 +46,7 @@
    <codeblock><b>&lt;task id="learn-dita"></b>
   &lt;title>Learning DITA&lt;/title>
   &lt;!-- ... -->
-<b>&lt;/tas k></b></codeblock>
+<b>&lt;/task></b></codeblock>
   </example>
 </refbody>
 </reference>

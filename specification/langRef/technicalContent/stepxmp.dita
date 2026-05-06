@@ -27,7 +27,8 @@
       <codeblock>&lt;step>
   &lt;cmd>Add an XML comment in the map that explains why you applied the 
        filtering attribute.&lt;/cmd>
-  <b>&lt;stepxmp></b>&lt;p>For example:&lt;p>
+  <b>&lt;stepxmp></b>
+    &lt;p>For example:&lt;/p>
     &lt;codeblock>
       &lt;!-- 18 Dec 2019 ML: The following topic is under review and should
                            not be published externally. [DH-1441]. --> 

@@ -54,7 +54,7 @@
         &lt;glossAcronym>AIDS&lt;/glossAcronym>
       &lt;/glossAlt>
   &lt;/glossBody>
-&lt;/hecsGlossentry></codeblock>
+&lt;/glossentry></codeblock>
         <p>Assume that a key-definition map specifies a value of <keyword>aids</keyword> for this
           glossary entry topic. On the first usage of <codeph>&lt;abbreviated-form
             keyref="aids"/></codeph>, the processor renders the content of the

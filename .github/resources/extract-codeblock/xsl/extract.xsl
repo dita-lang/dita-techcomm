@@ -138,7 +138,7 @@
     </xsl:result-document>
   </xsl:template>
   
-  <xsl:template match="fragment[troubleshooting]" mode="serialize">
+  <xsl:template match="fragment[troubleshooting | remedy]" mode="serialize">
     <xsl:result-document href="{x:createFileName(., '.dita')}" doctype-public="-//OASIS//DTD DITA 2.0 Troubleshooting//EN"
       doctype-system="troubleshooting.dtd">
       <xsl:apply-templates select="." mode="copy"/>
