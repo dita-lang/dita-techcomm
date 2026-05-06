@@ -2,5 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
 <reference id="topic-and-map-specializations">
     <title>Topic and map specializations</title>
-    <shortdesc>Content TBD</shortdesc>
+    <shortdesc>Topic and map specializations in the technical content specification include several
+        structural specializations, such as the concept, task, and reference information
+        types.</shortdesc>
 </reference>
