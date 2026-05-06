@@ -36,7 +36,7 @@
 &lt;bookmeta>
    &lt;bookchangehistory>
       &lt;bookevent>
-         <b>&lt;bookeventtype name="indexed"/></b>
+         <b>&lt;bookeventtype value="indexed"/></b>
           &lt;completed>&lt;month>09&lt;/month>&lt;year>2022&lt;/year>&lt;/completed>
       &lt;/bookevent>
    &lt;/bookchangehistory>
