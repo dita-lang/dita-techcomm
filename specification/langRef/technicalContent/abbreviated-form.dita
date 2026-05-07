@@ -70,7 +70,7 @@
           important elements:</p>
         <dl>
           <dlentry>
-            <dt><xmlelement>glossSurfaceform</xmlelement></dt>
+            <dt><xmlelement>glossSurfaceForm</xmlelement></dt>
             <dd>Defines the term as it should be rendered <ph rev="review-a-2024">on first use</ph>.
               Typically this is the long form of a term, followed by an abbreviation or acronym.
               Note that other languages often do not follow the same conventions as English.</dd>
@@ -109,7 +109,7 @@ many find an <b>&lt;abbreviated-form keyref="abs"/></b> useful.
 &lt;/section></codeblock>
       </fig>
       <p>The typical rendering is that the first use of the
-          <xmlelement>abbreviated-form keyref="ab"</xmlelement> will result
+          <codeph>&lt;abbreviated-form keyref="ab"/&gt;</codeph> will result
         in the surface form of the term, while subsequent usages will
         result in the acronym, as shown in the following screen
         capture:</p>
