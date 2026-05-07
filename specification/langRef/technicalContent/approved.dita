@@ -17,7 +17,7 @@
     <refbody>
         <section id="usage-information" rev="review-j">
             <title>Usage information</title>
-            <p>Information within <xmlelement>approval</xmlelement> can apply to different aspects
+            <p>Information within <xmlelement>approved</xmlelement> can apply to different aspects
                 of the map, such as approval of the overall content or of a specific deliverable
                 created from the map.</p>
         </section>

@@ -25,7 +25,7 @@
           part of that segment. Whenever possible, such elements should be placed only at sentence
           boundaries in order to aid translation. The subflow elements in base DITA are
             <xmlelement>draft-comment</xmlelement>, <xmlelement>fn</xmlelement>,
-            <xmlelement>idex-see</xmlelement>, <xmlelement>index-see-also</xmlelement>,
+            <xmlelement>index-see</xmlelement>, <xmlelement>index-see-also</xmlelement>,
             <xmlelement>indexterm</xmlelement>, and <xmlelement>required-cleanup</xmlelement></li>
         <li>The <xmlelement>keyword</xmlelement> element (as well as specializations of
             <xmlelement>keyword</xmlelement>) is an inline, phrase-like element when it appears in
@@ -581,7 +581,7 @@
           <stentry/>
         </strow>
         <strow>
-          <stentry><xmlelement>glossbody</xmlelement></stentry>
+          <stentry><xmlelement>glossBody</xmlelement></stentry>
           <stentry><xmlelement>body</xmlelement>, <xmlelement>conbody</xmlelement></stentry>
           <stentry>yes</stentry>
           <stentry>block</stentry>

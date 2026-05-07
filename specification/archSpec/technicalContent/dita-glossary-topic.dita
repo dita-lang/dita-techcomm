@@ -59,7 +59,7 @@
           glossary entry topic. On the first usage of <codeph>&lt;abbreviated-form
             keyref="aids"/></codeph>, the processor renders the content of the
             <xmlelement>glossSurfaceForm</xmlelement> element. On the second and later usages, the
-          processor renders the content of the <xmlelement>glossAcronum</xmlelement> element.</p>
+          processor renders the content of the <xmlelement>glossAcronym</xmlelement> element.</p>
       </fig>
     </example>
   </conbody>

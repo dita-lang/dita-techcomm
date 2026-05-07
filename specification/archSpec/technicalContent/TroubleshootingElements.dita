@@ -27,12 +27,11 @@
       <p>Troubleshooting information can be added following a step in a procedure if it is likely
         that the user will encounter a problem in performing the step.</p>
       <p>The <xmlelement>steptroubleshooting</xmlelement> element can occur following the
-          <xmlelement>cmd</xmlelement> element in the <xmlelement>step</xmlelement> or
-          <xmlelement>substep</xmlelement> element. The
-        <xmlelement>steptroubleshooting</xmlelement>element ends the <xmlelement>step</xmlelement>
-        or <xmlelement>substep</xmlelement> element. Another element, such as
-          <xmlelement>info</xmlelement> or <xmlelement>stepxmp</xmlelement>, cannot be added after
-        the <xmlelement>steptroubleshooting</xmlelement> element.</p>
+          <xmlelement>cmd</xmlelement> element in the <xmlelement>step</xmlelement> element. The
+          <xmlelement>steptroubleshooting</xmlelement>element ends the <xmlelement>step</xmlelement>
+        element. Another element, such as <xmlelement>info</xmlelement> or
+          <xmlelement>stepxmp</xmlelement>, cannot be added after the
+          <xmlelement>steptroubleshooting</xmlelement> element.</p>
       <p>The first example shows troubleshooting information added to a step. The second example
         shows the troubleshooting information following a step result.</p>
       <codeblock>&lt;step>
@@ -63,7 +62,7 @@
         in correcting a problem that might have occurred. The
           <xmlelement>tasktroubleshooting</xmlelement> element is one of four optional elements that
         can follow the <xmlelement>steps</xmlelement> element. When these optional element are used,
-        they must appear in the following order: <xmlelement>results</xmlelement>,
+        they must appear in the following order: <xmlelement>result</xmlelement>,
           <xmlelement>tasktroubleshooting</xmlelement>, <xmlelement>example</xmlelement>, and
           <xmlelement>postreq</xmlelement>.</p>
       <codeblock>&lt;steps>
