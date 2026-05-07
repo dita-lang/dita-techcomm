@@ -4,16 +4,66 @@
   <title>Key definitions: Stub topic</title>
   <!-- These references to StubTopic need to refer to a copy of the base spec,
       which should be published in some version before this map is processed. -->
-  <keydef keys="attributes-conaction" href="StubTopic.dita"/>
-  <keydef keys="attributes-conkeyref" href="StubTopic.dita"/>
-  <keydef keys="attributes-conref" href="StubTopic.dita"/>
-  <keydef keys="attributes-conrefend" href="StubTopic.dita"/>
-  <keydef keys="attributes-format" href="StubTopic.dita"/>
-  <keydef keys="attributes-href" href="StubTopic.dita"/>
-  <keydef keys="attributes-keyref" href="StubTopic.dita"/>
-  <keydef keys="attributes-keys" href="StubTopic.dita"/>
-  <keydef keys="attributes-keyscope" href="StubTopic.dita"/>
-  <keydef keys="attributes-scope" href="StubTopic.dita"/>
-  <keydef keys="attributes-type" href="StubTopic.dita"/>
-  <keydef keys="attributes-useconreftarget" href="StubTopic.dita"/>
+  <keydef keys="attributes-conaction"
+    href="https://dita-lang.org/dita/langref/attributes/universalattributes#univ-atts__attr-conaction"
+    scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-conkeyref" href="https://dita-lang.org/dita/langref/attributes/universalattributes#univ-atts__attr-conkeyref" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-conref" href="https://dita-lang.org/dita/langref/attributes/universalattributes#univ-atts__attr-conref" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-conrefend" href="https://dita-lang.org/dita/langref/attributes/universalattributes#univ-atts__attr-conrefend" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-format" href="https://dita-lang.org/dita/langref/attributes/attribute-groups#attribute-groups__attr-format" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-href" href="https://dita-lang.org/dita/langref/attributes/attribute-groups#attribute-groups__attr-href" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-keyref" href="https://dita-lang.org/dita/langref/attributes/commonattributes#common-atts__attr-keyref" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-keys" href="https://dita-lang.org/dita/langref/attributes/commonattributes#common-atts__attr-keys" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-keyscope" href="https://dita-lang.org/dita/langref/attributes/commonattributes#common-atts__attr-keyscope" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-scope" href="https://dita-lang.org/dita/langref/attributes/commonattributes#common-atts__attr-scope" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-type" href="https://dita-lang.org/dita/langref/attributes/commonattributes#common-atts__attr-type" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
+  <keydef keys="attributes-useconreftarget" href="https://dita-lang.org/dita/archspec/base/ditauseconreftarget" scope="external" format="html">
+    <topicmeta>
+      <linktitle>TODO: Update link and title to OASIS published URI</linktitle>
+    </topicmeta>
+  </keydef>
 </map>
