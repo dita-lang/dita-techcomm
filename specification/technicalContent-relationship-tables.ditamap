@@ -2,24 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
 <map>
  <title>Relationship tables: Technical content specification</title>
+ <!--<reltable><title>External resources</title><relheader><relcolspec linking="sourceonly"/><relcolspec scope="external"/></relheader><relrow><relcell/><relcell/></relrow></reltable>-->
  <reltable>
-  <title>External resources</title>
-  <relheader>
-   <relcolspec linking="sourceonly"/>
-   <relcolspec scope="external"/>
-  </relheader>
-  
-
-  <relrow>
-   <relcell/>
-   <relcell/>
-  </relrow>
- </reltable>
- <reltable>
-  <relheader>
-   <relcolspec/>
-   <relcolspec/>
-  </relheader>
+  <title>General purpose bi-directional links in the technical content specification</title>
   <relrow>
    <relcell>
         <topicref href="langRef/containers/troubleshooting-elements.dita"/>
@@ -29,14 +14,6 @@
           href="archSpec/technicalContent/dita-troubleshooting-topic.dita"
         />
       </relcell>
-  </relrow>
-  <relrow>
-   <relcell/>
-   <relcell/>
-  </relrow>
-  <relrow>
-   <relcell/>
-   <relcell/>
   </relrow>
  </reltable>
 </map>

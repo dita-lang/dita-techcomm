@@ -14,8 +14,9 @@
 <refbody>
       <section id="usage-information">
       <title>Usage information</title>
-      <p>The content model for the task topic varies depending on whether
-        the strict task or general task document-type shell is used.</p>
+      <p>The content model for the task topic varies depending on whether the strict task or general
+        task document-type shell is used. See <xref keyref="task-architecture"/> for more
+        information on the different shells.</p>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

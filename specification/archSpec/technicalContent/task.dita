@@ -2,9 +2,26 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
 <concept id="task">
     <title>Task</title>
-    <shortdesc>DITA offer two varieties of task topics: general task and
-    strict task. <ph rev="review-a">Both task topics serve the same
-      purpose: to provide users with comprehensive instructions for
-      performing a task. Their content models vary,
-    however.</ph></shortdesc>
+    <shortdesc>The OASIS DITA Technical Committee distributes two varieties of task topics: general
+    task and strict task. <ph rev="review-a">Both task topics serve the same purpose: to provide
+      users with comprehensive instructions for performing a task. Their content models vary,
+      however.</ph></shortdesc>
+  <conbody>
+    <section id="section_1">
+      <dl id="dl_lzd_rrp_2jc">
+        <dlentry>
+          <dt>General task</dt>
+          <dd>Has a more relaxed content model. It allows <xmlelement>section</xmlelement> and
+              <xmlelement>steps-informal</xmlelement> inside of the task body; it also allows
+            multiple instances and varying order for the elements that make up the task body.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>(Strict) task</dt>
+          <dd>Maintains a strict order and cardinality for elements within the
+              <xmlelement>taskbody</xmlelement> content model. The strict task is implemented with a
+            constraint module.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </conbody>
 </concept>
