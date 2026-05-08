@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
 <map>
-  <title>Key definitions: Stub topic</title>
-  <!-- These references to StubTopic need to refer to a copy of the base spec,
-      which should be published in some version before this map is processed. -->
+  <title>TODO: Key definitions: Override base spec</title>
+  <!-- These references to the base spec currently go to a frequently republished draft of the latest spec.
+
+TODO: These keys need to be updated with valid OASIS links as we prepare to go into reviews. We will need to know the path that the base spec is published at in order to make the links work. -->
   <keydef keys="attributes-conaction"
     href="https://dita-lang.org/dita/langref/attributes/universalattributes#univ-atts__attr-conaction"
     scope="external" format="html">

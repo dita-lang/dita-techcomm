@@ -16,5 +16,5 @@
     <keydef
         href="baseSpec/specification/common/reuse-w-lwdita/reuse-note.dita"
         keys="reuse-note"/>
-    <mapref href="stubs/KeyStubs.ditamap" processing-role="resource-only"/>
+    <mapref href="base-specification-key-overrides.ditamap" processing-role="resource-only"/>
 </map>
