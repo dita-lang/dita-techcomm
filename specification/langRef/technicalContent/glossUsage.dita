@@ -22,8 +22,7 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
-      <!--<draft-comment author="dawnstevens">Although I realize the element is specialized from Note, I question the need to point out the type and othertype attributes; they don't seem to me to have any meaning in the content of a usage note. A usage note is type usage note, in my mind. Why would anyone specify any type or othertype?</draft-comment>-->
-      <!--<draft-comment author="robander" time="Jan 18, 2024">For every attribute that is defined, we need to include it in the attribute list, whether we expect it to be used or not. If we want to modify this (but not remove the attributes), then we need to modify the conref to "note" so that we pull in the attribute list, but then add an exception saying that these attributes will not typically be used, that the type is expected to be a scope usage note.</draft-comment>-->
+      <!--Noting for future editors: there were questions during review about whether the attributes section should highlight @type and @othertype. These are retained because the attributes section has to list all valid attributes. While we could create a custom attribute section here that both defines the attributes and states that they are not usually used on this element, it's easier and more consistent to continue reusing the full set of attributes from <note>.-->
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">

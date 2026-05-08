@@ -20,17 +20,8 @@
     <section id="usage-information">
       <title>Usage information</title>
       <p>Each syntax group is a logical set of pieces of syntax that go together. The group
-        composite means that the items that make up the syntax diagram will be rendered close
-        together rather than being separated by a horizontal or vertical line, which is the usual
-        formatting method.</p>
-      <draft-comment author="Frank Wegmann" time="19 February 2023">
-        <p>The usage information mentions rendering and formatting in one and the same sentence,
-          while this is only about rendering here, if I'm not mistaken regarding our language use.
-          Please advise whether we should break it out in a section Rendering expectations.</p>
-        <p>Furthermore, I cannot observe this rendering expectation in the current DITA-OT
-          implementation: I get the same output for the code sample below, when e.g. using
-            <xmlelement>groupseq</xmlelement> instead of <xmlelement>groupcomp</xmlelement>. </p>
-      </draft-comment>
+        composite is used for items that will be rendered close together rather than being separated
+        by a horizontal or vertical line.</p>
     </section>
 <section id="specialization-hierarchy">
 <title>Specialization hierarchy</title>

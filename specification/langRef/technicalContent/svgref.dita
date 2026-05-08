@@ -136,12 +136,6 @@
   &lt;/part>
 &lt;/root></codeblock></p>
       </fig>
-      <!--<p>The following example shows how to define a key in order to use <xmlelement>svg</xmlelement> to include an SVG fragment with the <xmlatt>id</xmlatt> of "svg-fragment-02" from within a larger document:<codeblock id="codeblock_w1r_ktn_ywb">&lt;keydef 
-  keys="svg-fragment-0002" 
-  href="svg/svg-library.xml#svg-fragment-02"
-/></codeblock>Then refer to this key using just the key name:<codeblock id="codeblock_x1r_ktn_ywb">&lt;svg-container>
-  &lt;svgref keyref="svg-fragment-0002"/>
-&lt;/svg-container></codeblock></p><draft-comment author="nancylph" time="21 may 2021"><p>This is a pretty standard way of defining and using keys; do we really need to include this last example?</p></draft-comment>-->
     </example>
   </refbody>
 </reference>

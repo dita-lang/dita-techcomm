@@ -15,12 +15,6 @@
     </metadata>
   </prolog>
   <refbody>
-    <section id="usage-information">
-      <title>Usage information</title>
-      <p>Additional information about the publication history is found in the
-          <xmlelement>bookchangehistory</xmlelement> element.</p>
-      <draft-comment author="tammy">I think this can be removed. Thoughts?</draft-comment>
-    </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>publisherinformation</xmlelement> element is specialized from

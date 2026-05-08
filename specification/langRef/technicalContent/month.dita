@@ -3,9 +3,8 @@
  "reference.dtd">
 <reference id="month" xml:lang="en-us">
   <title><xmlelement>month</xmlelement></title>
-  <shortdesc>The <xmlelement>month</xmlelement> element denotes a month of the year.<draft-comment
-      author="tammy">Are there any expectations to provide the month number vs. the
-      name?</draft-comment></shortdesc>
+  <!--Noted during review, this does not specify whether the month is a number (10) or name (October). Presumably both are legal, no change from 1.x description.-->
+  <shortdesc>The <xmlelement>month</xmlelement> element denotes a month of the year.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

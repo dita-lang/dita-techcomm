@@ -16,10 +16,10 @@
   <refbody>
     <section id="processing-expectations">
       <title>Processing expectations</title>
-      <p>A processor determines how or whether the revision level is displayed. Common methods
-        include using a dash, for example "-01", or a period, such as ".01".</p>
-      <draft-comment author="tammy">I don't understand these processing
-        expectations.</draft-comment>
+      <p>A processor determines how or whether the revision level is displayed to highlight revised
+        content. <ph otherprops="example">For example, a processor could choose to indicate a
+          revision number of <keyword>01</keyword> by adding <keyword>-01</keyword> or
+            <keyword>.01</keyword> to the end of the book's part number.</ph></p>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

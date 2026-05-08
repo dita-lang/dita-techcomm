@@ -29,8 +29,6 @@
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
       <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies any
         restrictions on the availability of the publication.</p>
-      <draft-comment author="tammy">This seems redundant since it's also captured in the Usage
-        information section.</draft-comment>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>
