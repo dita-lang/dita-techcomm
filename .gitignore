@@ -3,3 +3,8 @@
 resources/tc-attributes-a-to-z.dita
 # Ignore test build directory
 /build
+# Ignore DITA-OT build scripts and folders
+specification/temp/
+specification/out/
+specification/html.sh
+specification/pdf.sh
