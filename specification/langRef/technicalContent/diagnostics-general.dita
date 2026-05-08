@@ -108,14 +108,14 @@
           rev="review-e"/>
       </fig>
       <fig rev="review-e">
-        <title>Example: Rigorous diagnosis</title>
+        <title>TODO: Example Rigorous diagnosis</title>
         <p>
           <draft-comment author="Kristen J Eberlein" time="15 February 2023">
             <p>We discussed the car noise example at the 14 February 2023 DITA TC meeting. The
               consensus was to add a second example, which Stan Doherty will develop.</p>
           </draft-comment>
-          <draft-comment author="rodaande" time="5 May 2026">If we do not get an updated example for
-            this, we should remove the second figure.</draft-comment>
+          <draft-comment author="rodaande" time="5 May 2026">TODO: If we do not get an updated
+            example for this, we should remove the second figure.</draft-comment>
         </p>
         <codeblock/>
       </fig>

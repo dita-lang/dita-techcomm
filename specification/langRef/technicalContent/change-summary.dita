@@ -18,8 +18,6 @@
       <title>Usage information</title>
       <p>The <xmlelement>change-summary</xmlelement> element contains the portion of the release
         note that might appear in a document.</p>
-      <draft-comment author="tammy">How/when would the change-summary appear in a
-        document?</draft-comment>
     </section>
     <section id="specialization-hierarchy">
       <title>Specialization hierarchy</title>

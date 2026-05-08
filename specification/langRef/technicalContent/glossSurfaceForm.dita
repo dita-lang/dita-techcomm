@@ -6,8 +6,7 @@
   <shortdesc>The <xmlelement>glossSurfaceForm</xmlelement> element specifies how the term <ph
       rev="review-a-2024">that is</ph> specified by the <xmlelement>glossterm</xmlelement> element
     should appear in the text. The surface form is suitable to introduce the term in new contexts or
-    as the first
-    occurrence.<!--<draft-comment author="dawnstevens">I learned a lot more than I really wanted to about the surface form in linguistics to suggest this short description, as opposed to what was there: "an unambiguous presentation of the term that might combine multiple forms." Surface forms are " the way a linguistic unit (such as a word, phrase, or sentence) appears when it is actually spoken or written, as opposed to its underlying or abstract form." Surface forms may take into account phonology (to provide stress, intonation, and accent), test and plurals (the surface form of "go" is "goes" in 3rd person singular), and derivational (to change roots of words in various contexts), contextual (I'm might be a surface form of I am in informal speech). Ultimately, in my experience the only thing this is really used for is first-use occurrence of acronyms so they are spelled out. I wonder if we should use that use case only in this definition, rather than a more comprehensive scope. </draft-comment>--></shortdesc>
+    as the first occurrence.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

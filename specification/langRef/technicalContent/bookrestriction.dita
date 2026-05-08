@@ -30,8 +30,6 @@
       <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>value</xmlatt> attribute specifies any
         restrictions on the use of the material, such as declaring the information confidential or
         for licensed use only.</p>
-      <draft-comment author="tammy">This seems redundant since it's also captured in the Usage
-        information section.</draft-comment>
     </section>
     <example id="example" otherprops="examples">
       <title>Example</title>

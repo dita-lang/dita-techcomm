@@ -3,13 +3,8 @@
  "reference.dtd">
 <reference id="booknumber" xml:lang="en-us">
   <title><xmlelement>booknumber</xmlelement></title>
-  <shortdesc>The <xmlelement>booknumber</xmlelement> element contains the number used to identify a
-    book that is part of a collection of works that belong to the same author.<draft-comment
-      author="tammy">The original description states that &lt;booknumber> is the "book's form
-      number" while the original examples states that that it "is a number that identifies this book
-      among all of the author's works". As noted in the current short description, I opted to go
-      with the latter definition. However, I don't actually know if either is accurate. It's not an
-      element I've ever had the need to use.</draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>booknumber</xmlelement> element contains a number used to identify a
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>

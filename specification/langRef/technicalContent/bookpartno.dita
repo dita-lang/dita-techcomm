@@ -3,10 +3,8 @@
  "reference.dtd">
 <reference id="bookpartno" xml:lang="en-us">
   <title><xmlelement>bookpartno</xmlelement></title>
-  <shortdesc>The <xmlelement>bookpartno</xmlelement> element contains the part number of the book,
-    such as 99F1234.<draft-comment author="tammy">I don't fully understand how this element is to be
-      used. Usage information suggests that it can be used by the publisher. Does it have other
-      uses?</draft-comment></shortdesc>
+  <shortdesc>The <xmlelement>bookpartno</xmlelement> element contains the part number of the
+    book.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
