@@ -257,12 +257,6 @@
 >
 
 <!-- ============================================================= -->
-<!--                    LOCALLY DEFINED CONTAINMENT                -->
-<!-- ============================================================= -->
-
-<!ELEMENT dita          (%info-types;)+                              >  
-
-<!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
 <!-- ============================================================= -->
 
@@ -413,12 +407,15 @@
          "xmlDomain.mod"
 >%xml-d-def;
 
-<!ATTLIST dita
-              specializations 
-                        CDATA                            
-                                  "&included-domains;"
-              %arch-atts;
-              %localization-atts;
->
+<!-- ============================================================= -->
+<!--                    INTEGRATE THE DITA ELEMENT FOR             -->
+<!--                    USE WITH DITABASE COMPOSITE DOCTYPE        -->
+<!-- ============================================================= -->
+
+<!ENTITY % ditaElement-def
+  PUBLIC "-//OASIS//ELEMENT DITA 2.x Element//EN"
+         "ditaelement.mod"
+>%ditaElement-def;
 
 <!-- ================= End of DITA BASE ================= -->
+
