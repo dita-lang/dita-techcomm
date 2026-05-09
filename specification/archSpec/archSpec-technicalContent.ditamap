@@ -2,8 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA 2.x Map//EN" "map.dtd">
 <map xml:lang="en-us">
   <title>Domain specializations</title>
+  <!--TODO: This map is not currently referenced. The container and equation info do not seem to be needed, info is minimal and duplicates what is in langref. Should the content for the release management topic here be moved into the container topic in the element reference? -->
   <topicref href="technicalContent/technical-content-domains.dita">
-    <!--<topicref href="technicalContent/dita_technicalContent_TopicDomains.dita"/>-->
     <topicref href="technicalContent/mathML-and-equation-domains.dita"/>
     <topicref href="technicalContent/releaseManagement-domain.dita"/>
   </topicref>
