@@ -10,6 +10,13 @@
     conforming to the base DITA specification.</shortdesc>
   <conbody>
     <draft-comment author="robander">Are there any additional rules to conform here? For example,
-      implementations must support abbreviated form, or anything else?</draft-comment>
+      implementations must support abbreviated form, or anything else?<p>
+        <draft-comment author="robander">TO RESOLVE 18 May 2026: Leave this comment open until
+          closer to the end of editing, and do a quick review looking for any conformance rules that
+          may be required. Most likely candidate is abbreviated form; not sure if there are any
+          others, all of the technical-content based formatting (from book maps, to code phrases and
+          xml mention, to syntax diagrams) seems optional / up to the tool and not something that
+          requires conformance</draft-comment>
+      </p></draft-comment>
   </conbody>
 </concept>
