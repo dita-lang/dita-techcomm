@@ -50,6 +50,10 @@
 </codeblock>
       <draft-comment author="Kristen J Eberlein" time="26 October 2022">
         <p>TODO: Can someone come up with a more realistic example?</p>
+        <p>
+          <draft-comment author="robander">TO RESOLVE 18 May 2026: Ask for TC volunteers to come up
+            with a good example, otherwise just go with this overly simplistic one</draft-comment>
+        </p>
       </draft-comment>
     </example>
 </refbody>

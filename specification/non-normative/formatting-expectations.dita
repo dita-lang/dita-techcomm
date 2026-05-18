@@ -11,7 +11,10 @@
                 rendered in the current draft of the spec, can we remove it?<p>Update: it is used in
                     dita-2.0-draft-pdf.ditamap, which looks like it is out of date and only includes
                     lwdita related topics. Need to confirm how that map is being used or if it is
-                    still needed.</p></draft-comment>
+                    still needed.</p><p>
+                    <draft-comment author="robander">TO RESOLVE 18 May 2026: Figure out what the
+                        draft map is used for, then delete this topic if not needed</draft-comment>
+                </p></draft-comment>
         </section>
     </refbody>
 </reference>

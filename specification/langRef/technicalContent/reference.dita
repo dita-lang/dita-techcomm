@@ -32,6 +32,10 @@
       <draft-comment author="Kristen J Eberlein" time="08 November 2022">
         <p>This is a pretty lousy example ...</p>
         <p>TODO: ask for a better example</p>
+        <p>
+          <draft-comment author="robander">TO RESOLVE 18 May 2026: as noted in the TODO, ask for a
+            better one</draft-comment>
+        </p>
       </draft-comment>
       <p>The following code sample shows how a reference topic can be
         used:</p>

@@ -53,6 +53,10 @@
       <draft-comment author="Kristen J Eberlein" time="26 October 2022">
         <p>TODO: While the following code sample is a perfectly reasonable example of a properties
           list, I think we could provide a better example of a reference topic.</p>
+        <p>
+          <draft-comment author="robander">TO RESOLVE 18 May 2026: If someone wants to make a better
+            one, that's great, otherwise leave it alone and move on.</draft-comment>
+        </p>
       </draft-comment>
       <codeblock>&lt;reference id="oil-types"&gt;
   &lt;title&gt;Oil types&lt;/title&gt;

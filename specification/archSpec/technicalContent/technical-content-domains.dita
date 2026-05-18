@@ -6,8 +6,14 @@
     general overview and more specific information about the release management, equation, and
     MathML domains.<draft-comment author="robander" time="25 may 2021" audience="spec-editors"
       >Should this be more comprehensive, and not just limited to those domains? Or are the others
-      like "software" too obvious to require a topic?</draft-comment><draft-comment
-      author="robander" time="8 May 2026">TODO: is this topic even used? It appears this is not.
-      Verify that this + archSpec-technicalContent.ditamap are not used, and if not, remove them and
-      related topics from the repo</draft-comment></shortdesc>
+      like "software" too obvious to require a topic?<p>
+        <draft-comment author="robander" time="8 May 2026">TODO: is this topic even used? It appears
+          this is not. Verify that this + archSpec-technicalContent.ditamap are not used, and if
+          not, remove them and related topics from the repo</draft-comment>
+      </p><p>
+        <draft-comment author="robander">TO RESOLVE 18 May 2026: <ol id="ol_fvc_q4k_hjc">
+            <li>If this topic is not used and not needed, delete it. </li>
+            <li>Otherwise, bulk it up a bit but it does not need to be exhaustive</li>
+          </ol></draft-comment>
+      </p></draft-comment></shortdesc>
 </concept>
