@@ -18,7 +18,7 @@
                 ><title>Specialization hierarchy</title>
             <p>The <xmlelement>booklibrary</xmlelement> element is specialized from
                     <xmlelement>ph</xmlelement>. It is defined in the bookmap module.</p></section>
-        <section id="attributes"><title>Attributes</title>
+        <section conkeyref="content-models-booklibrary/booklibrary.element" id="content-model"/><section conkeyref="inheritance-booklibrary/booklibrary.inheritance" id="inheritance"/><section id="attributes"><title>Attributes</title>
             <p conkeyref="reuse-attributes/universal-keyref"/>
         </section>
         <example id="example" otherprops="examples" rev="review-k">

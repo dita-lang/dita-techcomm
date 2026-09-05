@@ -22,7 +22,7 @@
          <p>The <xmlelement>apiname</xmlelement>
             <ph rev="review-c">element</ph> is specialized from <xmlelement>keyword</xmlelement>. It
             is defined in the programming domain module.</p></section>
-      <section id="attributes"><title>Attributes</title>
+      <section conkeyref="content-models-apiname/apiname.element" id="content-model"/><section conkeyref="inheritance-apiname/apiname.inheritance" id="inheritance"/><section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/universal-keyref"/>
       </section>
       <example id="example" otherprops="examples">

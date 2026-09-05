@@ -20,7 +20,7 @@
       <p>The <xmlelement>cmdname</xmlelement> element is specialized from
           <xmlelement>keyword</xmlelement>. It is defined in the software domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-cmdname/cmdname.element" id="content-model"/><section conkeyref="inheritance-cmdname/cmdname.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>

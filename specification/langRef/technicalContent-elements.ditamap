@@ -37,4 +37,10 @@
    <mapref href="xml-mention-domain-elements.ditamap" format="ditamap"/>
   </topicref>
  </topicref>
+  <mapref href='content-models/bookmap.ditamap'/>
+  <mapref href='content-models/concept.ditamap'/>
+  <mapref href='content-models/task.ditamap'/>
+  <mapref href='content-models/reference.ditamap'/>
+  <mapref href='content-models/troubleshooting.ditamap'/>
+  <mapref href='content-models/glossgroup.ditamap'/>
 </map>

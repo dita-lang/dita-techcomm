@@ -30,7 +30,7 @@
       <p>The <xmlelement>menucascade</xmlelement> element is specialized from
           <xmlelement>ph</xmlelement>. It is defined in the user-interface domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-menucascade/menucascade.element" id="content-model"/><section conkeyref="inheritance-menucascade/menucascade.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>

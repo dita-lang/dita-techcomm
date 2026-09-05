@@ -22,7 +22,7 @@
       <p>The <xmlelement>propdeschd</xmlelement> element is specialized from
           <xmlelement>stentry</xmlelement>. It is defined in the reference module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-propdeschd/propdeschd.element" id="content-model"/><section conkeyref="inheritance-propdeschd/propdeschd.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/stentry-no-spans"/>
     </section>

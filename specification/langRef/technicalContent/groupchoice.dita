@@ -26,7 +26,7 @@
           <xmlelement>figgroup</xmlelement>.  It is defined in the syntax-diagram domain module,
         which is a specialization of the programming domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-groupchoice/groupchoice.element" id="content-model"/><section conkeyref="inheritance-groupchoice/groupchoice.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/syntaxelement-update-importance"/></section>
     <example id="example" otherprops="examples">

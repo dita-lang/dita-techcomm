@@ -19,7 +19,7 @@
       <p>The <xmlelement>booknumber</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-booknumber/booknumber.element" id="content-model"/><section conkeyref="inheritance-booknumber/booknumber.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>
