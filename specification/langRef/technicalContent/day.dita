@@ -18,7 +18,7 @@
       <p>The <xmlelement>day</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
         It is defined in the bookmap module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-day/day.element" id="content-model"/><section conkeyref="inheritance-day/day.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>
