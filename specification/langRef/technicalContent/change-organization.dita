@@ -20,7 +20,7 @@
       <p>The <xmlelement>change-organization</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-change-organization/change-organization.element" id="content-model"/><section conkeyref="inheritance-change-organization/change-organization.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>

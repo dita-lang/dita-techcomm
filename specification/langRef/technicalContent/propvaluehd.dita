@@ -17,7 +17,7 @@
          <p>The <xmlelement>propvaluehd</xmlelement> element is specialized from
                <xmlelement>stentry</xmlelement>. It is defined in the reference module.</p>
       </section>
-    <section id="attributes">
+    <section conkeyref="content-models-propvaluehd/propvaluehd.element" id="content-model"/><section conkeyref="inheritance-propvaluehd/propvaluehd.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/stentry-no-spans"/>
     </section>
