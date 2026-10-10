@@ -27,7 +27,7 @@
       <p>The <xmlelement>trademarklist</xmlelement> element is specialized from
           <xmlelement>topicref</xmlelement>. It is defined in the bookmap module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-trademarklist/trademarklist.element" id="content-model"/><section conkeyref="inheritance-trademarklist/trademarklist.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <div conkeyref="reuse-tc-attributes/bookmap-booklist-attributes"/></section>
     <example id="example" otherprops="examples">

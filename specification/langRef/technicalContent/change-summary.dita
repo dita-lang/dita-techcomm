@@ -24,7 +24,7 @@
       <p>The <xmlelement>change-summary</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-change-summary/change-summary.element" id="content-model"/><section conkeyref="inheritance-change-summary/change-summary.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>
