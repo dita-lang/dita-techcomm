@@ -30,7 +30,7 @@
       <p>The <xmlelement>glossAcronym</xmlelement> element is specialized from
           <xmlelement>title</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
-    <section conkeyref="reuse-title/attributes" id="attributes"/>
+    <section conkeyref="content-models-glossAcronym/glossAcronym.element" id="content-model"/><section conkeyref="inheritance-glossAcronym/glossAcronym.inheritance" id="inheritance"/><section conkeyref="reuse-title/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
       <title>Example</title>
       <p>The following code sample shows how the
