@@ -24,7 +24,7 @@
         ><title>Specialization hierarchy</title>
       <p>The <xmlelement>bookmap</xmlelement> element is specialized from
           <xmlelement>map</xmlelement>. It is defined in the bookmap module.</p></section>
-    <section conkeyref="reuse-map/attributes" id="attributes"/>
+    <section conkeyref="content-models-bookmap/bookmap.element" id="content-model"/><section conkeyref="inheritance-bookmap/bookmap.inheritance" id="inheritance"/><section conkeyref="reuse-map/attributes" id="attributes"/>
     <example id="example" otherprops="examples"
       ><title>Example</title>
       <p>The following code sample shows how a <xmlelement>bookmap</xmlelement> can be used to

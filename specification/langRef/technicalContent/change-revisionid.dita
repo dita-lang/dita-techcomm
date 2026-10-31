@@ -19,7 +19,7 @@
       <p>The <xmlelement>change-revisionid</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-change-revisionid/change-revisionid.element" id="content-model"/><section conkeyref="inheritance-change-revisionid/change-revisionid.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>

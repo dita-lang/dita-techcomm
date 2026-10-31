@@ -31,7 +31,7 @@
       <p>The <xmlelement>glossAlt</xmlelement> element is specialized from
           <xmlelement>section</xmlelement>. It is defined in the glossary entry module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-glossAlt/glossAlt.element" id="content-model"/><section conkeyref="inheritance-glossAlt/glossAlt.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
