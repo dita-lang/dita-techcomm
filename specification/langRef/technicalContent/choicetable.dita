@@ -41,7 +41,7 @@
       <p>The <xmlelement>choicetable</xmlelement> element is specialized from
           <xmlelement>simpletable</xmlelement>. It is defined in the task module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-choicetable/choicetable.element" id="content-model"/><section conkeyref="inheritance-choicetable/choicetable.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/simpletable-attributes"/>
       <p id="attr-exception" outputclass="attr-exception">For this element, the <xmlatt>keycol</xmlatt> attribute has a default

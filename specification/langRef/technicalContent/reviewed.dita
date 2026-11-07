@@ -20,7 +20,7 @@
       <p>The <xmlelement>reviewed</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-reviewed/reviewed.element" id="content-model"/><section conkeyref="inheritance-reviewed/reviewed.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
     </section>
