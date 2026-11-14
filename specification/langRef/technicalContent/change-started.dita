@@ -23,7 +23,7 @@
       <p>The <xmlelement>change-started</xmlelement> element is specialized from
           <xmlelement>data</xmlelement>. It is defined in the release-management domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-change-started/change-started.element" id="content-model"/><section conkeyref="inheritance-change-started/change-started.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-outputclass-name"/>
     </section>

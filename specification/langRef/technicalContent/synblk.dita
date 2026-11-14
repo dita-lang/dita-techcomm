@@ -21,7 +21,7 @@
         <xmlelement>figgroup</xmlelement>. It is defined in the syntax-diagram domain module, which
         is a specialization of the programming domain module.</p>
 </section>
-    <section id="attributes">
+    <section conkeyref="content-models-synblk/synblk.element" id="content-model"/><section conkeyref="inheritance-synblk/synblk.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/only-universal"/>
     </section>

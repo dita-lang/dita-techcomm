@@ -18,7 +18,7 @@
       <p>The <xmlelement>year</xmlelement> element is specialized from <xmlelement>ph</xmlelement>.
         It is defined in the bookmap module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-year/year.element" id="content-model"/><section conkeyref="inheritance-year/year.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-keyref"/>
     </section>

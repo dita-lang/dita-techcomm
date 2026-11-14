@@ -23,7 +23,7 @@
         <ph rev="review-c">element</ph> is specialized from <xmlelement>dl</xmlelement>. It is
         defined in the programming domain module.</p>
     </section>
-    <section id="attributes">
+    <section conkeyref="content-models-parml/parml.element" id="content-model"/><section conkeyref="inheritance-parml/parml.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p conkeyref="reuse-attributes/universal-compact"/>
     </section>
