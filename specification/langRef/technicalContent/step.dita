@@ -25,7 +25,7 @@
 <p>The <xmlelement>step</xmlelement> element is specialized from <xmlelement>li</xmlelement>. It is
         defined in the task module.</p>
 </section>
-<section id="attributes">
+<section conkeyref="content-models-step/step.element" id="content-model"/><section conkeyref="inheritance-step/step.inheritance" id="inheritance"/><section id="attributes">
       <title>Attributes</title>
       <p>The following attributes are available on this element: <ph
           conkeyref="reuse-attributes/ref-universalatts"/>.</p>
