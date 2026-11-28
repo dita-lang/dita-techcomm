@@ -26,7 +26,7 @@
             ><title>Specialization hierarchy</title>
          <p>The <xmlelement>bookevent</xmlelement> element is specialized from
                <xmlelement>data</xmlelement>. It is defined in the bookmap module.</p></section>
-      <section id="attributes"><title>Attributes</title>
+      <section conkeyref="content-models-bookevent/bookevent.element" id="content-model"/><section conkeyref="inheritance-bookevent/bookevent.inheritance" id="inheritance"/><section id="attributes"><title>Attributes</title>
          <p conkeyref="reuse-attributes/data-link-universal-outputclass"/>
       </section>
       <example id="example" otherprops="examples"><title>Example</title><p>The following code sample shows how the <xmlelement>bookevent</xmlelement> element can be used to

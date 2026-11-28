@@ -22,7 +22,7 @@
    <p>The <xmlelement>task</xmlelement> element is specialized from <xmlelement>topic</xmlelement>.
         It is defined in the task module.</p>
   </section>
-  <section conkeyref="reuse-topic/attributes" id="attributes"/>
+  <section conkeyref="content-models-task/task.element" id="content-model"/><section conkeyref="inheritance-task/task.inheritance" id="inheritance"/><section conkeyref="reuse-topic/attributes" id="attributes"/>
   <example id="example" otherprops="examples">
    <title>Example</title>
       <p>The following code sample shows that <xmlelement>task</xmlelement>
